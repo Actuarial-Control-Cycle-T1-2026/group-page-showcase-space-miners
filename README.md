@@ -93,38 +93,38 @@ fierce solar storm (or any other adverse solar event) as a level 1 compliant ope
 <details>
 <summary>Equipment Failure</summary>
 
-<details>
-<summary>Benefit Structure</summary>
-  
-Equipment Failure insurance provides coverage for losses arising from mechanical
-breakdown, electrical failures, explosions and operational malfunctions during the mining
-process. The benefit structure provides compensation for the repair or replacement of the
-insured equipment upon failure, with payout amounts based on the condition of the equipment
-at the time of claim. To ensure consistency of estimates and revenue sustainability, coverages
-are capped at 790K per claim, limiting exposure to overly large losses. Premiums for ‘High
-Risk’ equipment were priced higher than those for ‘Low Risk’ equipment to ensure losses
-were accurately accounted for. The characteristics of the covered solar systems were also
-considered, with their risk factors being evaluated based on potential damage to the insured
-equipment. This ultimately led to higher premiums for the Bayesia System, lower premiums
-for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
-major risk attributes that would warrant a higher premium price.
-
-</details>
-<details>
-<summary>Coverage Triggers and Exclusions</summary>
-  
-The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
-events that occur non-intentionally, which result in unforeseen physical damage that prevents
-the machinery from operating normally. For a claim to be processed, evidence of damage or
-breakdown must be provided to ensure claim validity. Additionally, all insured equipment
-must meet the initially required safety standards. To ensure healthy profits
-and maintainable products, claims arising from the following reasons are not covered by the
-equipment failure policies: gradual wear and tear, intentional misuse, a lack of maintenance,
-not adhering to safety standards and any pre-existing faults known at the time of
-policy inception. Additionally, any equipment older than 30 years will not be eligible for
-insurance.
-
-</details>
+><details>
+><summary>Benefit Structure</summary>
+>  
+>Equipment Failure insurance provides coverage for losses arising from mechanical
+>breakdown, electrical failures, explosions and operational malfunctions during the mining
+>process. The benefit structure provides compensation for the repair or replacement of the
+>insured equipment upon failure, with payout amounts based on the condition of the equipment
+>at the time of claim. To ensure consistency of estimates and revenue sustainability, coverages
+>are capped at 790K per claim, limiting exposure to overly large losses. Premiums for ‘High
+>Risk’ equipment were priced higher than those for ‘Low Risk’ equipment to ensure losses
+>were accurately accounted for. The characteristics of the covered solar systems were also
+>considered, with their risk factors being evaluated based on potential damage to the insured
+>equipment. This ultimately led to higher premiums for the Bayesia System, lower premiums
+>for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
+>major risk attributes that would warrant a higher premium price.
+>
+></details>
+><details>
+><summary>Coverage Triggers and Exclusions</summary>
+>  
+>The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
+>events that occur non-intentionally, which result in unforeseen physical damage that prevents
+>the machinery from operating normally. For a claim to be processed, evidence of damage or
+>breakdown must be provided to ensure claim validity. Additionally, all insured equipment
+>must meet the initially required safety standards. To ensure healthy profits
+>and maintainable products, claims arising from the following reasons are not covered by the
+>equipment failure policies: gradual wear and tear, intentional misuse, a lack of maintenance,
+>not adhering to safety standards and any pre-existing faults known at the time of
+>policy inception. Additionally, any equipment older than 30 years will not be eligible for
+>insurance.
+>
+></details>
 </details>
 
 
