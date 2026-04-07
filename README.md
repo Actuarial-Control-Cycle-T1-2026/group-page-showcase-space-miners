@@ -130,7 +130,6 @@ for the Helionis Cluster, and standard base premiums for Oryn Delta, which had n
 major risk attributes that would warrant a higher premium price.
 
 </details>
-
 <details>
 <summary>Coverage Triggers and Exclusions</summary>
   
