@@ -483,7 +483,7 @@ workers, with loading premiums calibrated in reference to the EDA and Safe Work 
 | Extraction Operations | 19790 | 10% | $140.91 | $2,788,599 |
 | Spacecraft Operations | 8811 | 3% | $129.57 | $1,141,657 |
 
-<img width="373" height="215" alt="Screenshot 2026-04-07 at 8 56 50 pm" src="https://github.com/user-attachments/assets/8e0ddab2-0498-4577-8766-842aac6f2fe5" />
+<img width="401" height="230" alt="Screenshot 2026-04-07 at 8 56 50 pm" src="https://github.com/user-attachments/assets/8e0ddab2-0498-4577-8766-842aac6f2fe5" />
 
 3.2.4 Business Interruption
 Business Interruption is treated as a single classification. The resulting total premium of $55.4
