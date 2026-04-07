@@ -277,10 +277,116 @@ workers, with loading premiums calibrated in reference to the EDA and Safe Work 
 
 <img width="603" height="123" alt="Screenshot 2026-04-07 at 7 40 08 pm" src="https://github.com/user-attachments/assets/836f0ee5-ae17-4fc2-826a-556e829c0bc0" />
 
+<img width="500" height="237" alt="Screenshot 2026-04-07 at 7 40 43 pm" src="https://github.com/user-attachments/assets/423ba80b-4992-4ce3-9de0-c16d90e43bbd" />
+
+3.2.4 Business Interruption
+Business Interruption is treated as a single classification. The resulting total premium of $55.4
+billion makes this hazard the largest line of income among all the insurance products.
+
+<img width="457" height="311" alt="Screenshot 2026-04-07 at 7 41 01 pm" src="https://github.com/user-attachments/assets/316b5679-52a0-41de-9272-5cc499e9318a" />
+
+3.3 Stress Testing for Extreme Scenarios 
+Furthermore, the team has conducted sensitivity testing to evaluate the impact of extreme
+scenarios, including both a lower claims environment and severe, correlated events associated
+with solar system shocks. These scenarios were tested with results summarised in Table 8. An
+exemption was made for Cargo, where solar system correlation effects were not applied due
+to the lack of system-specific data. As such, two cases were tested: the first, where only
+frequency was inflated by 1.5; and the second, where both frequency and severity were
+increased by 1.5. To reflect the best-case scenario for all four hazard areas, claim frequency
+was lowered by a factor of 0.8. This resulted in lower aggregate losses and consequently
+improved projected profit margins. In contrast, to capture the worst-case scenarios, three
+progressively adverse scenarios were tested for all hazards (excluding Cargo), to reflect the
+impact of incrementally increased solar correlation, with the following assumptions: 
+• 1 Solar Correlation - 1 solar system being adversely affected;
+• 2 Solar Correlations - 2 solar systems are adversely affected; and
+• 3 Solar Correlations - A severe and highly correlated stress environment where all 3
+solar systems are impacted (rare but possible).
+
+Under all these scenarios, both the claim frequency and severity were inflated by
+1.5, reflective of a severe shock, in turn capturing tail risk more robustly. The chosen
+scenarios and their respective inflation factors, allow for the analysis of correlation-driven
+events, without venturing into an unrealistic domain. 
+
+<img width="438" height="338" alt="Screenshot 2026-04-07 at 7 41 26 pm" src="https://github.com/user-attachments/assets/02b32e05-9e65-4d3c-a7c8-a2056906e774" />
+
+It is evident that a potential 1 in 10-year loss event results in an initial, sharp drop in profit
+margins across all hazard areas as depicted in Table 8. However, with the assumption that
+premiums and business growth remain consistent, and the effects of catastrophic events do not
+carry onto subsequent years, profits will be able to recover quickly due to the strong backup
+of reserves, even in the most adverse scenarios. For example, if the catastrophe were to occur
+in the year 2176, when reserves are at their lowest and most vulnerable to extreme shocks,
+testing suggests that the reserves and profits will be able to recover within four years
+(Appendix C1). Despite the initial presumption that the worse-case scenario occurs in the year
+2176, additional stress testing validates that the business will always be able to recover
+within ten years, regardless of when in the projection period the scenario occurs.
+
+4. Risk Assessment
+4.1 Risk Matrix 
+The risk matrix highlights that most of the
+primary risks have a low to moderate likelihood of
+occurrence. However, some risks can have a
+high and lasting impact on product performance.
+The top threats of Economic & Financial
+risk and Catastrophic risk are noticeably external
+perils, leaving Galaxy General more exposed and
+vulnerable. Interest Rate risk is also considerably
+high given the reliance on investment income to
+generate profits and capital. To reduce the impact,
+mitigation strategies have been outlined in Section
+4.2 to ensure that the products remain
+profitable, robust and useful.
+
+<img width="317" height="298" alt="Screenshot 2026-04-07 at 7 41 51 pm" src="https://github.com/user-attachments/assets/016ffe4d-4843-4712-8911-ebc28f8031f7" />
 
 
+<img width="437" height="648" alt="Screenshot 2026-04-07 at 7 42 14 pm" src="https://github.com/user-attachments/assets/cd88aaa4-cdad-4af3-b675-8a664882b50c" />
 
 
+5. An Evaluation of Ethics and ESG Considerations
+The Galaxy General Insurance Company has a strong commitment to upholding ESG values,
+which is underpinned by strong ethical guidelines. A prominent ethical consideration entails
+ensuring the affordability of insurance products for all socioeconomic classes. For example,
+drill operators are exposed to significant risk in their daily duties relative to technical
+employees. The foundational principle of risk-pooling is used to help distribute aggregate risk
+across the policyholder pool. Otherwise, premiums would be more exorbitant for the lowerskilled workers, who tend to come from lower socioeconomic classes, contributing to greater
+income inequality. Furthermore, CQMC’s operations are, by nature, detrimental to the solar
+system environment. However, such operations have been necessitated due to the depletion of
+resources on Earth and providing insurance for these intense mining operations and expansion
+plans are ethically justified by the primitive need for survival. As an insurer, climate risk will
+be regularly reviewed to ensure the suitability of individual product design. Furthermore,
+strong corporate governance procedures have been implemented to ensure the financial
+feasibility of the insurer’s operations (i.e. ensuring solvency). This includes setting aside
+strong reserves, stress testing and profit testing various possible catastrophe events.
+6. Assumptions
+General report assumptions are based on knowledge of the current earthly environment due to
+a lack of future understanding. Further, it was assumed that the historical claims data for the
+three existing solar systems can be used as a proxy and be accurately mapped onto the
+emerging solar systems, given that this was the only data available. It is assumed that CQMC
+will have consistent yearly mining yield for the given time horizon. As more data is acquired,
+yearly revisions of product design, modelling, pricing and key assumptions will be made, in
+line with the ‘monitoring results’ component of the ACC. Specific assumptions and their
+rationale for product design, modelling, and pricing can be found in their respective
+subsections (above).
+7. Data and Data Limitations
+The claims datasets contained several limitations that required remediation prior to modelling.
+Observations with values falling outside the given, plausible range of each variable were
+removed as it was likely a data entry or recording error that cannot be inferred. A special case
+was applied for the Equipment dataset, where only negative “equipment ages” were removed
+since otherwise a significant proportion (42,000) claims would have needed to be removed.
+The values of claims for Workers Compensation were inferred to be in “K’s” (thousands).
+Certain categorical fields contained irregular formatting, such as non-standard characters and
+transcription errors, which were standardised to ensure consistent grouping. Further, policies
+that presented a 0-claim count with a positive claim amount were removed. Some records
+contained missing values, however there was sufficient contextual information across the
+severity and frequency sheets for this data to be reconciled. The data cleaning decisions
+had a minimal overall impact on the data with 1.24%, 5.8%, 1.35%, 1.4% of the four ordered
+hazard datasets being removed respectively. However, their impact on modelled loss
+estimates is recognised and is still considered in the interpretation of results. 
+Conclusion
+Overall, it is recommended that Galaxy General sells the four insurance products excluding
+Cargo Type A to all three solar systems with tailored product designs. This insurance
+undertaking is financially sustainable in the long term despite the potential exogenous risks
+posed by the expansion into new solar systems.
 
 
 
