@@ -225,7 +225,7 @@ was formed, which was then used to estimate expected loss, variance and the tail
 
 <img width="601" height="128" alt="Screenshot 2026-04-07 at 7 38 07 pm" src="https://github.com/user-attachments/assets/b32ce7a3-04e3-49e7-9eec-a807f8b8310b" />
 
-## 📊 Table 3: Short Term Predicted Financials
+## Table 3: Short Term Predicted Financials
 
 | Category              | Equipment Failure | Cargo Loss (Type B) | Workers’ Compensation | Business Interruption |
 |----------------------|-------------------|----------------------|------------------------|-------------------------|
