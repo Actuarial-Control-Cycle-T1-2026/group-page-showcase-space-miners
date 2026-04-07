@@ -38,7 +38,6 @@ covering each of the four requested hazard areas: Equipment Failure, Cargo Loss,
 Compensation, and Business Interruption.
 
 1. Product Rationale
-
 It is recommended that all four insurance products be offered across all three of CQMC’s
 solar systems. While the nature and severity of risks differ between the solar systems, each of
 the three present exposure across all four hazard areas. Thus, excluding any product from any
@@ -61,6 +60,7 @@ Equipment Failure. Radiation spikes, combined with the high gravity and thin mag
 environment, creates elevated health and safety risks and accelerated degradation of mining
 equipment. Business Interruption is also material, as radiation events have the potential to
 force unplanned operational shutdowns, for indefinite periods of time.
+
 1.3 Oryn Delta
 Oryn Delta presents the least predictable risk profile of the three systems. The expansion into
 the system’s asymmetric asteroid ring makes Cargo Loss a critical priority as transit risk
@@ -68,7 +68,8 @@ through this zone is high and growing. The dwarf star’s potential for unpredic
 combined with inconsistent long-range communications supports the need for Business
 Interruption coverage. Workers’ Compensation is also elevated given the risky nature of the
 expansion, while Equipment Failure risk is present but relatively more manageable.
-3. Product Design
+
+2. Product Design
 The team has designed four key products for Galaxy General Insurance that encompass the
 four hazard areas. In an endeavour of creating suitable products, Explanatory Data Analysis
 (EDA) was conducted on historical data, which helped in identifying the key risks and
@@ -77,7 +78,6 @@ benefits structures, coverage triggers and exclusions of each product.
 To assist with adaptability, each of the four hazard areas were split in response to their
 respective EDA analyses (see Appendix A). Equipment’s EDA, supplemented with an average
 risk index rating system, enabled the hazard to be categorised as either ‘High Risk’
-2
 (consisting of Quantum Bores, Regl Aggregators, and Ion Pulverizers) or ‘Low Risk’
 (consisting of Graviton Extractors, FexStram Carriers, and Flux Riders). Cargo Loss was split
 based on inherent value per kilogram, calculated by dividing cargo value by weight and then
@@ -94,6 +94,7 @@ categories (refer to Appendix A for a detailed explanation). Intriguingly, even 
 as safety compliance and maintenance frequency held minimal importance. For example, a
 level 5 safety compliant operation is equally compelled to cease business operation during a
 fierce solar storm (or any other adverse solar event) as a level 1 compliant operation.
+
 2.1 Equipment Failure
 2.1.1 Benefit Structure
 Equipment Failure insurance provides coverage for losses arising from mechanical
@@ -108,6 +109,7 @@ considered, with their risk factors being evaluated based on potential damage to
 equipment. This ultimately led to higher premiums for the Bayesia System, lower premiums
 for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
 major risk attributes that would warrant a higher premium price.
+
 2.1.2 Coverage Triggers and Exclusions
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
@@ -119,10 +121,53 @@ equipment failure policies: gradual wear and tear, intentional misuse, a lack of
 not adhering to safety standards and any pre-existing faults known at the time of
 policy inception. Additionally, any equipment older than 30 years will not be eligible for
 insurance.
+
 2.2. Cargo Loss
 2.2.1 Benefit Structure
 Cargo Loss insurance provides coverage for loss and damage to the cargo resulting from
 accidental damage, theft and environmental impacts during transportation. The coverage is
 provided on a per shipment basis, with a maximum claim amount of 38 million (Type B)
 and 678 million (Type A). The indemnity is based on the declared value at policy inception,
+with the payout determined according to the extent of the loss during transportation. The
+policy covers the full value of the insured loss, up to the declared value. Cargo risks were
+found to vary across the solar system and will be assessed based on route and operating
+conditions. Premium adjustments were determined by considering specific route risks, transit
+duration, and hazards for operations in select solar systems, namely, Helionis Cluster and
+Oryn Delta. 
+
+2.2.2 Coverage Triggers and Exclusions 
+The coverage is triggered from losses and damages occurring due to events such as collisions,
+navigation hazards, and environmental hazards such as asteroids and solar activity.
+Furthermore, coverage extends to third-party interference and operational failures. All events
+must occur within the insured period and be consistent with standard operating conditions. 
+Only Type B Cargo is covered, with Type A Cargo excluded due to its highly concentrated
+risk and potential loss. Additionally, non-accidental losses, delays without physical damage,
+and incidents occurring outside the insured period are not covered. All the routes used for
+transportation must meet established safety standards and achieve minimum clearance
+requirements to be eligible for coverage. 
+
+2.3. Workers’ Compensation 
+2.3.1 Benefit Structure 
+The Workers’ Compensation hazard component of the insurance provides coverage and
+financial support for CQMC employees who sustain injuries, illness and work-induced
+conditions. The product provides payments for lost income when an employee is unable to
+work due to injury, and also covers medical, hospital, and rehabilitation costs. Coverage is
+based on a per-event basis with a cap of 170K per claim. Non-white Collar workers will be
+compensated for the physical injuries and illnesses arising from hazardous environments,
+while White Collar workers will be targeted towards psychological claims, including stressrelated claims and other workplace factors. Additional considerations apply to employees
+operating within extreme solar system environments, most explicitly the Bayesia system. For
+example, the higher levels of radiation present and subsequent increased exposure will require
+workers to meet a relatively higher exposure threshold to be eligible in making radiation
+related claims. Conversely, those who work in lower pre-defined exposure systems will be
+eligible for potential discounts.
+
+2.3.2 Coverage Triggers and Exclusions 
+Coverage will only be triggered from claims for injury or illness sustained during the course
+of employment with the firm, with potential causes including workplace accidents,
+environmental hazards, operational incidents and work-related stress. The claims will be
+verified through evidence, such as medical examinations, to ensure valid claims are paid out.
+There will be exclusions applied to limit the amount and frequency of the claims. For
+example, intentional injuries, self-inflicted injuries, pre-existing medical conditions and death
+will not be covered as part of this insurance policy
+
 ---
