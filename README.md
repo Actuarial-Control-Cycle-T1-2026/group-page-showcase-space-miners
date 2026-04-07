@@ -245,6 +245,8 @@ conducted to determine the most relevant explanatory variables. These variables 
 used to fit Generalised Linear Models (GLMs), with link functions corresponding to the
 chosen distributions shown in Table 1 (refer to Appendix B for full model specifications).
 
+## Table 1: Model Distributions
+
 | Hazard Coverage                | Frequency           | Severity          |
 |--------------------------------|---------------------|-------------------|
 | Equipment Failure              | Negative Binomial   | Gamma             |
@@ -253,7 +255,6 @@ chosen distributions shown in Table 1 (refer to Appendix B for full model specif
 | Workers’ Compensation          | Negative Binomial   | Gamma             |
 | Business Interruption          | Negative Binomial   | Inverse Gaussian  |
 
-<img width="332" height="127" alt="Screenshot 2026-04-07 at 7 37 29 pm" src="https://github.com/user-attachments/assets/03c60406-ae09-4881-a809-4162fe336288" />
 
 Finally, a Monte Carlo simulation with 10,000 iterations was conducted to estimate the
 aggregate loss distribution. The number of simulations was chosen with considerations to
