@@ -93,8 +93,8 @@ fierce solar storm (or any other adverse solar event) as a level 1 compliant ope
 <details>
 <summary>Equipment Failure</summary>
 
-<details>
-<summary>Benefit Structure</summary>
+> <details>
+> <summary>Benefit Structure</summary>
   
 Equipment Failure insurance provides coverage for losses arising from mechanical
 breakdown, electrical failures, explosions and operational malfunctions during the mining
@@ -109,9 +109,9 @@ equipment. This ultimately led to higher premiums for the Bayesia System, lower 
 for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
 major risk attributes that would warrant a higher premium price.
 
-</details>
-<details>
-<summary>Coverage Triggers and Exclusions</summary>
+> </details>
+> <details>
+> <summary>Coverage Triggers and Exclusions</summary>
   
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
@@ -124,7 +124,7 @@ not adhering to safety standards and any pre-existing faults known at the time o
 policy inception. Additionally, any equipment older than 30 years will not be eligible for
 insurance.
 
-</details>
+> </details>
 </details>
 
 
