@@ -859,12 +859,11 @@ perils, leaving Galaxy General more exposed and
 vulnerable. Interest Rate risk is also considerably
 high given the reliance on investment income to
 generate profits and capital. To reduce the impact,
-mitigation strategies have been outlined in Section
-4.2 to ensure that the products remain
+mitigation strategies have been outlined in section below to ensure that the products remain
 profitable, robust and useful.
 
 <div align="center">
-  <img width="317" height="298" alt="Screenshot 2026-04-07 at 7 41 51 pm" src="https://github.com/user-attachments/assets/016ffe4d-4843-4712-8911-ebc28f8031f7" />
+ <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/5e4f40e8-57a0-4714-84a1-5a1932e36628" />
 </div>
 
 
