@@ -227,6 +227,9 @@ chosen distributions shown in Table 1 (refer to Appendix B for full model specif
 | Workers’ Compensation          | Negative Binomial   | Gamma             |
 | Business Interruption          | Negative Binomial   | Inverse Gaussian  |
 
+<details>
+<summary> Model Distribution Code </summary>
+
 ```r
 # =========================
 # Equipment Models
@@ -330,6 +333,9 @@ cargo_typeB_poi <- glm(
   data = freq_cargo_typeB_clean
 )
 ```
+</details>
+
+
 Finally, a Monte Carlo simulation with 10,000 iterations was conducted to estimate the
 aggregate loss distribution. The number of simulations was chosen with considerations to
 both computational constraints and accuracy. Under each iteration, the number of claims was
