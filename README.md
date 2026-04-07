@@ -316,8 +316,10 @@ Under all these scenarios, both the claim frequency and severity were inflated b
 scenarios and their respective inflation factors, allow for the analysis of correlation-driven
 events, without venturing into an unrealistic domain. 
 
-<h2>Equipment</h2>
+<h2>Table 8: Scenario Test Results</h2>
 
+<!-- EQUIPMENT -->
+<h3>Equipment</h3>
 <table>
   <tr>
     <th>Scenario</th>
@@ -327,23 +329,144 @@ events, without venturing into an unrealistic domain. 
     <th>2 Solar Correlation</th>
     <th>3 Solar Correlation</th>
   </tr>
-
   <tr>
     <td>Mean Aggregate Loss</td>
-    <td>38,265,347</td>
-    <td>47,824,099</td>
-    <td>71,473,251</td>
-    <td>90,389,501</td>
-    <td>107,457,419</td>
+    <td>38,265,347</td><td>47,824,099</td><td>71,473,251</td><td>90,389,501</td><td>107,457,419</td>
   </tr>
-
   <tr>
-    <td>Profit Margin Impact</td>
+    <td>95% VaR</td>
+    <td>53,490,238</td><td>64,890,134</td><td>101,991,703</td><td>121,508,828</td><td>139,142,118</td>
+  </tr>
+  <tr>
+    <td>99% VaR</td>
+    <td>62,898,943</td><td>75,651,712</td><td>121,980,865</td><td>139,185,043</td><td>157,238,831</td>
+  </tr>
+  <tr>
+    <td><b>Profit Margin Impact</b></td>
     <td style="background-color:#c6efce;">13.42%</td>
     <td>3.78%</td>
     <td style="background-color:#ffc7ce;">-12.35%</td>
     <td style="background-color:#ffc7ce;">-27.02%</td>
     <td style="background-color:#ffc7ce;">-40.27%</td>
+  </tr>
+  <tr>
+    <td>Years to Recover</td>
+    <td>-</td><td>-</td><td>2 years</td><td>3 years</td><td>3 years</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- WORKERS COMP -->
+<h3>Worker’s Compensation</h3>
+<table>
+  <tr>
+    <th>Scenario</th>
+    <th>Best Case</th>
+    <th>Moderate Case</th>
+    <th>1 Solar Correlation</th>
+    <th>2 Solar Correlation</th>
+    <th>3 Solar Correlation</th>
+  </tr>
+  <tr>
+    <td>Mean Aggregate Loss</td>
+    <td>3,156,698</td><td>3,953,181</td><td>5,008,028</td><td>7,116,321</td><td>8,868,728</td>
+  </tr>
+  <tr>
+    <td>95% VaR</td>
+    <td>3,953,059</td><td>4,848,489</td><td>6,167,212</td><td>8,542,592</td><td>10,491,509</td>
+  </tr>
+  <tr>
+    <td>99% VaR</td>
+    <td>4,347,276</td><td>5,246,498</td><td>6,727,565</td><td>9,225,543</td><td>11,258,155</td>
+  </tr>
+  <tr>
+    <td><b>Profit Margin Impact</b></td>
+    <td style="background-color:#c6efce;">13.03%</td>
+    <td>3.67%</td>
+    <td style="background-color:#ffc7ce;">-3.88%</td>
+    <td style="background-color:#ffc7ce;">-23.13%</td>
+    <td style="background-color:#ffc7ce;">-39.13%</td>
+  </tr>
+  <tr>
+    <td>Years to Recover</td>
+    <td>-</td><td>-</td><td>1 years</td><td>2 years</td><td>3 years</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- BUSINESS INTERRUPTION -->
+<h3>Business Interruption</h3>
+<table>
+  <tr>
+    <th>Scenario</th>
+    <th>Best Case</th>
+    <th>Moderate Case</th>
+    <th>1 Solar Correlation</th>
+    <th>2 Solar Correlation</th>
+    <th>3 Solar Correlation</th>
+  </tr>
+  <tr>
+    <td>Mean Aggregate Loss</td>
+    <td>37,670,947,059</td><td>47,068,079,272</td><td>59,455,598,728</td><td>81,749,099,770</td><td>105,934,088,378</td>
+  </tr>
+  <tr>
+    <td>95% VaR</td>
+    <td>39,190,321,772</td><td>48,685,684,313</td><td>61,842,355,852</td><td>84,878,626,568</td><td>109,582,221,420</td>
+  </tr>
+  <tr>
+    <td>99% VaR</td>
+    <td>39,775,775,997</td><td>49,465,622,831</td><td>62,959,870,363</td><td>86,497,389,135</td><td>111,344,640,303</td>
+  </tr>
+  <tr>
+    <td><b>Profit Margin Impact</b></td>
+    <td style="background-color:#c6efce;">13.40%</td>
+    <td>3.76%</td>
+    <td style="background-color:#ffc7ce;">-3.80%</td>
+    <td style="background-color:#ffc7ce;">-21.40%</td>
+    <td style="background-color:#ffc7ce;">-40.50%</td>
+  </tr>
+  <tr>
+    <td>Years to Recover</td>
+    <td>-</td><td>-</td><td>1 years</td><td>2 years</td><td>3 years</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- CARGO TYPE B -->
+<h3>Cargo Type B</h3>
+<table>
+  <tr>
+    <th>Scenario</th>
+    <th>Best Case</th>
+    <th>Moderate Case</th>
+    <th>Freq x 1.5</th>
+    <th>Freq & Sev x 1.5</th>
+  </tr>
+  <tr>
+    <td>Mean Aggregate Loss</td>
+    <td>6,507,638,129</td><td>8,131,007,785</td><td>12,191,243,709</td><td>18,286,865,564</td>
+  </tr>
+  <tr>
+    <td>95% VaR</td>
+    <td>6,745,955,787</td><td>8,396,109,449</td><td>12,554,348,925</td><td>18,831,523,387</td>
+  </tr>
+  <tr>
+    <td>99% VaR</td>
+    <td>6,864,176,542</td><td>8,531,384,245</td><td>12,736,828,832</td><td>19,105,243,248</td>
+  </tr>
+  <tr>
+    <td><b>Profit Margin Impact</b></td>
+    <td style="background-color:#c6efce;">13.29%</td>
+    <td>3.51%</td>
+    <td style="background-color:#ffc7ce;">-13.05%</td>
+    <td style="background-color:#ffc7ce;">-41.31%</td>
+  </tr>
+  <tr>
+    <td>Years to Recover</td>
+    <td>-</td><td>-</td><td>2 years</td><td>4 years</td>
   </tr>
 </table>
 
