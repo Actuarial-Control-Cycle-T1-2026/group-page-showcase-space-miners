@@ -1,4 +1,4 @@
-# Space Miners 🚀⛏️
+# 🚀 Space Miners ⛏️
 <div align="center">
   <img width="570" height="316" alt="Screenshot 2026-04-07 at 7 23 22 pm" src="https://github.com/user-attachments/assets/4fbc15df-c9df-44ad-970e-1c13e5e29cd2" />
 </div>
