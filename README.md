@@ -316,7 +316,36 @@ Under all these scenarios, both the claim frequency and severity were inflated b
 scenarios and their respective inflation factors, allow for the analysis of correlation-driven
 events, without venturing into an unrealistic domain. 
 
-<img width="438" height="338" alt="Screenshot 2026-04-07 at 7 41 26 pm" src="https://github.com/user-attachments/assets/02b32e05-9e65-4d3c-a7c8-a2056906e774" />
+<h2>Equipment</h2>
+
+<table>
+  <tr>
+    <th>Scenario</th>
+    <th>Best Case</th>
+    <th>Moderate Case</th>
+    <th>1 Solar Correlation</th>
+    <th>2 Solar Correlation</th>
+    <th>3 Solar Correlation</th>
+  </tr>
+
+  <tr>
+    <td>Mean Aggregate Loss</td>
+    <td>38,265,347</td>
+    <td>47,824,099</td>
+    <td>71,473,251</td>
+    <td>90,389,501</td>
+    <td>107,457,419</td>
+  </tr>
+
+  <tr>
+    <td>Profit Margin Impact</td>
+    <td style="background-color:#c6efce;">13.42%</td>
+    <td>3.78%</td>
+    <td style="background-color:#ffc7ce;">-12.35%</td>
+    <td style="background-color:#ffc7ce;">-27.02%</td>
+    <td style="background-color:#ffc7ce;">-40.27%</td>
+  </tr>
+</table>
 
 It is evident that a potential 1 in 10-year loss event results in an initial, sharp drop in profit
 margins across all hazard areas as depicted in Table 8. However, with the assumption that
