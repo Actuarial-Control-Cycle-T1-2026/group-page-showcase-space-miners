@@ -225,6 +225,18 @@ was formed, which was then used to estimate expected loss, variance and the tail
 
 <img width="601" height="128" alt="Screenshot 2026-04-07 at 7 38 07 pm" src="https://github.com/user-attachments/assets/b32ce7a3-04e3-49e7-9eec-a807f8b8310b" />
 
+## 📊 Table 3: Short Term Predicted Financials
+
+| Category              | Equipment Failure | Cargo Loss (Type B) | Workers’ Compensation | Business Interruption |
+|----------------------|-------------------|----------------------|------------------------|-------------------------|
+| **Total Cost**        | $47,824,099       | $8,131,007,785       | $3,945,460             | $47,068,079,272         |
+| **Premium Income**    | $56,334,895       | $9,454,660,215       | $4,852,302             | $55,374,210,908         |
+| **Investment Income** | $2,873,438        | $482,247,882         | $247,498               | $2,824,084,756          |
+| **Profit**            | $11,384,234       | $1,805,900,312       | $1,154,340             | $11,130,216,393         |
+| **Profit Margin**     | 20.21%            | 19.10%               | 24%                    | 20.10%                  |
+
+
+
 3.2 Pricing
 Using the aggregate loss values simulated, the short-term and long-term cash flows were
 projected. Using industry standards, a cost flat rate of 10% was applied to all hazard areas, capturing administration, processing, and tax costs. Further, with considerations to
