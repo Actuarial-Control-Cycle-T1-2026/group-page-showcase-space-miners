@@ -28,7 +28,7 @@ Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
 <img width="570" height="316" alt="Screenshot 2026-04-07 at 7 23 22 pm" src="https://github.com/user-attachments/assets/4fbc15df-c9df-44ad-970e-1c13e5e29cd2" />
 
 
-Executive Summary
+##Executive Summary
 This report presents recommendations to Galaxy General’s Management Team in response to
 the request for proposals issued by Cosmic Quarry Mining Corporation (CQMC),
 who are expanding mining operations to the Helionis Cluster, Bayesia System, and Oryn
