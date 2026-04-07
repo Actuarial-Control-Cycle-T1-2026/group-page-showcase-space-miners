@@ -861,7 +861,10 @@ mitigation strategies have been outlined in Section
 4.2 to ensure that the products remain
 profitable, robust and useful.
 
-<img width="317" height="298" alt="Screenshot 2026-04-07 at 7 41 51 pm" src="https://github.com/user-attachments/assets/016ffe4d-4843-4712-8911-ebc28f8031f7" />
+<div align="center">
+  <img width="317" height="298" alt="Screenshot 2026-04-07 at 7 41 51 pm" src="https://github.com/user-attachments/assets/016ffe4d-4843-4712-8911-ebc28f8031f7" />
+</div>
+
 
 ### Tabulation of Risk Types
 
