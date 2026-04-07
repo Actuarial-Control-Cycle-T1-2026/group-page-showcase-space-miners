@@ -845,8 +845,8 @@ testing suggests that the reserves and profits will be able to recover within fo
 2176, additional stress testing validates that the business will always be able to recover
 within ten years, regardless of when in the projection period the scenario occurs.
 
-4. Risk Assessment
-4.1 Risk Matrix 
+## Risk Assessment
+### Risk Matrix 
 The risk matrix highlights that most of the
 primary risks have a low to moderate likelihood of
 occurrence. However, some risks can have a
@@ -863,7 +863,7 @@ profitable, robust and useful.
 
 <img width="317" height="298" alt="Screenshot 2026-04-07 at 7 41 51 pm" src="https://github.com/user-attachments/assets/016ffe4d-4843-4712-8911-ebc28f8031f7" />
 
-### 4.2 Tabulation of Risk Types
+### Tabulation of Risk Types
 
 | Risk Type | Description | Mitigation Strategy |
 |---|---|---|
@@ -878,17 +878,17 @@ profitable, robust and useful.
 | Ethical Risk | Pricing may unintentionally bias different individuals based on certain (policyholder) characteristics. | Risk pooling is used to spread the financial burden of losses across all individuals. For example, pool the risks of drill operators and C-suite executives. This ensures equitability. |
 
 
-## 5. An Evaluation of Ethics and ESG Considerations
+## An Evaluation of Ethics and ESG Considerations
 
 The Galaxy General Insurance Company has a strong commitment to upholding ESG values, which is underpinned by strong ethical guidelines. A prominent ethical consideration entails ensuring the affordability of insurance products for all socioeconomic classes. For example, drill operators are exposed to significant risk in their daily duties relative to technical employees. The foundational principle of risk-pooling is used to help distribute aggregate risk across the policyholder pool. Otherwise, premiums would be more exorbitant for the lower-skilled workers, who tend to come from lower socioeconomic classes, contributing to greater income inequality.
 
 Furthermore, CQMC’s operations are, by nature, detrimental to the solar system environment. However, such operations have been necessitated due to the depletion of resources on Earth and providing insurance for these intense mining operations and expansion plans are ethically justified by the primitive need for survival. As an insurer, climate risk will be regularly reviewed to ensure the suitability of individual product design. Furthermore, strong corporate governance procedures have been implemented to ensure the financial feasibility of the insurer’s operations (i.e. ensuring solvency). This includes setting aside strong reserves, stress testing and profit testing various possible catastrophe events.
 
-## 6. Assumptions
+## Assumptions
 
 General report assumptions are based on knowledge of the current earthly environment due to a lack of future understanding. Further, it was assumed that the historical claims data for the three existing solar systems can be used as a proxy and be accurately mapped onto the emerging solar systems, given that this was the only data available. It is assumed that CQMC will have consistent yearly mining yield for the given time horizon. As more data is acquired, yearly revisions of product design, modelling, pricing and key assumptions will be made, in line with the ‘monitoring results’ component of the ACC. Specific assumptions and their rationale for product design, modelling, and pricing can be found in their respective subsections (above).
 
-## 7. Data and Data Limitations
+## Data and Data Limitations
 
 The claims datasets contained several limitations that required remediation prior to modelling. Observations with values falling outside the given, plausible range of each variable were removed as it was likely a data entry or recording error that cannot be inferred. A special case was applied for the Equipment dataset, where only negative “equipment ages” were removed since otherwise a significant proportion (42,000) claims would have needed to be removed. The values of claims for Workers Compensation were inferred to be in “K’s” (thousands).
 
