@@ -37,7 +37,8 @@ and potential challenges, the team recommends that four insurance products are o
 covering each of the four requested hazard areas: Equipment Failure, Cargo Loss, Workers’
 Compensation, and Business Interruption.
 
-1. Product Rationale
+1.Product Rationale
+
 It is recommended that all four insurance products be offered across all three of CQMC’s
 solar systems. While the nature and severity of risks differ between the solar systems, each of
 the three present exposure across all four hazard areas. Thus, excluding any product from any
@@ -69,7 +70,8 @@ combined with inconsistent long-range communications supports the need for Busin
 Interruption coverage. Workers’ Compensation is also elevated given the risky nature of the
 expansion, while Equipment Failure risk is present but relatively more manageable.
 
-2. Product Design
+2.Product Design
+
 The team has designed four key products for Galaxy General Insurance that encompass the
 four hazard areas. In an endeavour of creating suitable products, Explanatory Data Analysis
 (EDA) was conducted on historical data, which helped in identifying the key risks and
