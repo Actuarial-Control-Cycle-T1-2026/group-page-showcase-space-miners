@@ -398,6 +398,170 @@ was formed, which was then used to estimate expected loss, variance and the tail
 | **VaR 95%**         | 64,890,134        | 221,605,942,519      | 8,396,109,449        | 4,848,489              | 48,685,684,313          |
 | **VaR 99%**         | 75,651,712        | 224,514,388,783      | 8,531,384,245        | 5,246,498              | 49,465,622,831          |
 
+```r
+# =========================
+# Equipment Simulation
+# =========================
+
+set.seed(5)
+
+simdata <- freq_equi_clean
+
+# Predicted means
+freq_pred <- predict(best_freq_equip, newdata = simdata, type = "response")
+sev_pred  <- predict(equip_best, newdata = simdata, type = "response")
+
+# Parameters
+theta <- best_freq_equip$theta
+phi   <- summary(equip_best)$dispersion
+shape <- 1 / phi
+
+# Simulation settings
+n_sim <- 100000
+n <- 4730
+
+# Store aggregate loss by equipment unit
+agg_matrix <- matrix(0, nrow = n_sim, ncol = n)
+
+for (s in 1:n_sim) {
+  for (i in 1:n) {
+
+    # Simulate number of claims
+    N_i <- rnbinom(1, mu = freq_pred[i], size = theta)
+
+    if (N_i > 0) {
+      # Simulate claim severities
+      sev_i <- rgamma(N_i, shape = shape, scale = phi * sev_pred[i])
+      agg_matrix[s, i] <- sum(sev_i)
+    } else {
+      agg_matrix[s, i] <- 0
+    }
+  }
+}
+
+
+# =========================
+# Worker's Compensation Simulation
+# =========================
+
+set.seed(123)
+
+simdata <- freq_workers_clean
+
+freq_pred <- predict(best_freq_workers, newdata = simdata, type = "response")
+sev_pred  <- predict(workers_best, newdata = simdata, type = "response")
+
+# Parameters
+theta <- best_freq_workers$theta
+phi   <- summary(workers_best)$dispersion
+shape <- 1 / phi
+
+# Settings
+n_sim <- 10000
+n <- 35000
+
+# Store aggregate loss by worker portfolio
+portfolio_loss <- numeric(n_sim)
+
+for (s in 1:n_sim) {
+  total_loss_s <- 0
+
+  for (i in 1:n) {
+    # Simulate number of claims
+    N_i <- rnbinom(1, mu = freq_pred[i], size = theta)
+
+    if (N_i > 0) {
+      # Simulate severities
+      sev_i <- rgamma(N_i, shape = shape, scale = phi * sev_pred[i])
+      total_loss_s <- total_loss_s + sum(sev_i)
+    }
+  }
+
+  portfolio_loss[s] <- total_loss_s
+}
+
+
+# =========================
+# Business Interruption Simulation
+# =========================
+
+set.seed(1)
+
+simdata <- freq_bus_clean
+
+freq_pred <- predict(freq_best_negative, newdata = simdata, type = "response")
+sev_pred  <- predict(bus_best, newdata = simdata, type = "response")
+
+# Parameters
+theta <- freq_best_negative$theta
+phi   <- summary(bus_best)$dispersion
+
+# Simulation settings
+n_sim <- 10000
+n <- nrow(simdata)
+
+# Store aggregate loss by business unit
+agg_matrix <- matrix(0, nrow = n_sim, ncol = n)
+
+for (s in 1:n_sim) {
+  for (i in 1:n) {
+
+    # Simulate number of claims
+    N_i <- rnbinom(1, mu = freq_pred[i], size = theta)
+
+    if (N_i > 0) {
+      # Simulate claim severities
+      sev_i <- rinvgauss(N_i, mean = sev_pred[i], dispersion = phi)
+      agg_matrix[s, i] <- sum(sev_i)
+    } else {
+      agg_matrix[s, i] <- 0
+    }
+  }
+}
+
+
+# =========================
+# Cargo Type B Simulation
+# =========================
+
+simdata_typeB <- freq_cargo_typeB_clean
+
+phi <- summary(cargo_typeB_best)$dispersion
+freq_pred <- predict(cargo_typeB_poi, newdata = simdata_typeB, type = "response")
+sev_pred <- predict(cargo_typeB_best, newdata = simdata_typeB, type = "response")
+sev_pred_1 <- predict(cargo_typeB_best_gamma, newdata = simdata_typeB, type = "response")
+
+theta   <- best_freq_cargo_typeB$theta
+phi_1   <- summary(cargo_typeB_best_gamma)$dispersion
+shape_1 <- 1 / phi_1
+scale_1 <- sev_pred_1 * phi_1
+
+set.seed(11)
+
+S <- 10000
+aggregate_losses_typeB <- numeric(S)
+
+for (s in 1:S) {
+
+  total_loss <- 0
+
+  for (i in 1:nrow(simdata_typeB)) {
+
+    # Step 1: simulate number of claims from Negative Binomial
+    N_i <- rnbinom(1, mu = 1.5 * freq_pred[i], size = theta)
+
+    if (N_i > 0) {
+      # Step 2: simulate severities from Gamma
+      claims <- rgamma(N_i, shape = shape_1, scale = 1.5 * scale_1[i])
+
+      # Step 3: aggregate
+      total_loss <- total_loss + sum(claims)
+    }
+  }
+
+  aggregate_losses_typeB[s] <- total_loss
+}
+```
 3.2 Pricing
 Using the aggregate loss values simulated, the short-term and long-term cash flows were
 projected. Using industry standards, a cost flat rate of 10% was applied to all hazard areas, capturing administration, processing, and tax costs. Further, with considerations to
