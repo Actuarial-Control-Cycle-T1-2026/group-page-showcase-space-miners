@@ -172,4 +172,49 @@ There will be exclusions applied to limit the amount and frequency of the claims
 example, intentional injuries, self-inflicted injuries, pre-existing medical conditions and death
 will not be covered as part of this insurance policy
 
+2.4. Business Interruption
+2.4.1 Benefit Structure
+Business Interruption insurance claims can be made to compensate for revenue loss and cover
+fixed operational expenses, including salaries, rent and utilities. The maximum payout amount
+per event is 1,426K to limit exposure to extreme claims. Premiums for the three solar systems
+were priced the same, as they all exhibited similar levels of interruption risk
+
+2.4.2 Coverage Triggers and Exclusions
+The coverage triggers for business interruption policies involve large operational delays or
+forced shutdowns caused by unforeseen and unintentional external factors such as natural
+disasters, supply failure, burglary, satellite failure, or communication failure. Conditions that
+must be met for a valid claim include upholding proper maintenance requirements and
+providing proof of loss. Exclusions for business interruption claims include failure to
+maintain scheduled maintenance of communication systems, internal conflicts such as worker
+strikes, and structural issues such as bankruptcy, liquidity or financial problems. In the case of
+extreme events, claims for business interruption can only be collected for revenue loss. Any
+specific damages (e.g., to equipment) must be claimed through the other respective Galaxy
+General Insurance products. 
+3. Summary of Pricing and Capital Modelling 
+3.1 Modelling
+Prior to pricing premiums for each hazard coverage, the appropriate distributions for severity
+and frequency were first identified to estimate aggregate losses. The severity distribution,
+which captures claim size, was selected from either the Gamma or Inverse Gaussian families.
+Whilst the frequency distribution, which models the number of claims, was chosen from
+Poisson, Negative Binomial, Zero-inflated Poisson and Zero-inflated Negative Binomial. The
+most suitable model was selected by including all candidate variables and assessing
+the model's performance based on the statistical metrics AIC and BIC. 
+Following the selection of the best-fitting distribution, a forward subset selection was
+conducted to determine the most relevant explanatory variables. These variables were then
+used to fit Generalised Linear Models (GLMs), with link functions corresponding to the
+chosen distributions shown in Table 1 (refer to Appendix B for full model specifications).
+
+<img width="332" height="127" alt="Screenshot 2026-04-07 at 7 37 29 pm" src="https://github.com/user-attachments/assets/03c60406-ae09-4881-a809-4162fe336288" />
+
+
+
+
+
+
+
+
+
+
+
+
 ---
