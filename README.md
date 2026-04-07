@@ -398,6 +398,9 @@ was formed, which was then used to estimate expected loss, variance and the tail
 | **VaR 95%**         | 64,890,134        | 221,605,942,519      | 8,396,109,449        | 4,848,489              | 48,685,684,313          |
 | **VaR 99%**         | 75,651,712        | 224,514,388,783      | 8,531,384,245        | 5,246,498              | 49,465,622,831          |
 
+<details>
+<summary>Simulation Code</summary>
+
 ```r
 # =========================
 # Equipment Simulation
@@ -562,6 +565,8 @@ for (s in 1:S) {
   aggregate_losses_typeB[s] <- total_loss
 }
 ```
+</details>
+
 3.2 Pricing
 Using the aggregate loss values simulated, the short-term and long-term cash flows were
 projected. Using industry standards, a cost flat rate of 10% was applied to all hazard areas, capturing administration, processing, and tax costs. Further, with considerations to
