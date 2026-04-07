@@ -23,9 +23,13 @@ More information on GitHub Pages can be found [here](https://pages.github.com/).
 ![](Actuarial.gif)
 
 # Space Miners
-Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
+<div align="center">
+  Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
+</div>
 
-<img width="570" height="316" alt="Screenshot 2026-04-07 at 7 23 22 pm" src="https://github.com/user-attachments/assets/4fbc15df-c9df-44ad-970e-1c13e5e29cd2" />
+<div align="center">
+  <img width="570" height="316" alt="Screenshot 2026-04-07 at 7 23 22 pm" src="https://github.com/user-attachments/assets/4fbc15df-c9df-44ad-970e-1c13e5e29cd2" />
+</div>
 
 
 Executive Summary
@@ -49,7 +53,7 @@ different hazard areas according to their distinct operational and environmental
 characteristics.
 
 <details>
-<summary>Helionis Cluster</summary>
+<summary>Helionis Cluster [Click Here]</summary>
 
 Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
@@ -60,7 +64,7 @@ Interruptions insurance coverage, supporting its inclusion.
 </details>
 
 <details>
-<summary>Bayesia System</summary>
+<summary>Bayesia System [Click Here]</summary>
 
 The priority coverages for the Bayesia System should be Workers’ Compensation and
 Equipment Failure. Radiation spikes, combined with the high gravity and thin magnetosphere
@@ -71,7 +75,7 @@ force unplanned operational shutdowns, for indefinite periods of time.
 </details>
 
 <details>
-<summary>Oryn Delta</summary>
+<summary>Oryn Delta [Click Here]</summary>
 
 Oryn Delta presents the least predictable risk profile of the three systems. The expansion into
 the system’s asymmetric asteroid ring makes Cargo Loss a critical priority as transit risk
