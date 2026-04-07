@@ -49,7 +49,7 @@ system would leave CQMC with significant uninsured gaps in its ERM framework. As
 offering these insurance products to CQMC is expected to be a profitable business venture for
 Galaxy General. However, it is to be noted that each solar system should place priority on
 different hazard areas according to their distinct operational and environmental
-characteristics. [Click on the arrows for more information]
+characteristics. [Click on the arrows for more information.]
 
 <details>
 <summary> Helionis Cluster</summary>
@@ -110,7 +110,7 @@ there were no significant variables that assisted in pricing nor warrant their o
 categories (refer to Appendix A for a detailed explanation). Intriguingly, even variables such
 as safety compliance and maintenance frequency held minimal importance. For example, a
 level 5 safety compliant operation is equally compelled to cease business operation during a
-fierce solar storm (or any other adverse solar event) as a level 1 compliant operation.
+fierce solar storm (or any other adverse solar event) as a level 1 compliant operation. [Click on the arrows for more information.]
 
 
 <details>
