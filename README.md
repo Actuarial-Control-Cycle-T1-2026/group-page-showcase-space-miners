@@ -901,7 +901,7 @@ The data cleaning decisions had a minimal overall impact on the data with 1.24%,
 
 Overall, it is recommended that Galaxy General sells the four insurance products excluding Cargo Type A to all three solar systems with tailored product designs. This insurance undertaking is financially sustainable in the long term despite the potential exogenous risks posed by the expansion into new solar systems.
 
-To Refer to EDA, view full report [Click Here](https://github.com/Actuarial-Control-Cycle-T1-2026/group-page-showcase-space-miners/blob/main/ACTL4001%20Formatted-1.pdf)
+To view full report + Appendix [Click Here](https://github.com/Actuarial-Control-Cycle-T1-2026/group-page-showcase-space-miners/blob/main/ACTL4001%20Formatted-1.pdf). 
 
 ![im-coming-ben-stiller](https://github.com/user-attachments/assets/f3616703-04ca-48cd-9eed-730d8f158f58)
 
