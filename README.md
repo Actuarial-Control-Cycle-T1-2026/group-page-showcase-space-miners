@@ -389,6 +389,10 @@ undertaking is financially sustainable in the long term despite the potential ex
 posed by the expansion into new solar systems.
 
 
+![tumblr_npyspyKTZz1qf12swo1_500](https://github.com/user-attachments/assets/b14ac1ce-cee7-4ea7-b8fa-53ebb7037b26)
+
+
+
 
 
 
