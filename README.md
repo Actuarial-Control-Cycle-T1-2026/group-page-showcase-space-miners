@@ -247,7 +247,7 @@ General Insurance products. 
 </details>
 </details>
 
-3. Summary of Pricing and Capital Modelling 
+3.Summary of Pricing and Capital Modelling 
 3.1 Modelling
 Prior to pricing premiums for each hazard coverage, the appropriate distributions for severity
 and frequency were first identified to estimate aggregate losses. The severity distribution,
