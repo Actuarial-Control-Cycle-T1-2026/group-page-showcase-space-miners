@@ -124,6 +124,27 @@ equipment. This ultimately led to higher premiums for the Bayesia System, lower 
 for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
 major risk attributes that would warrant a higher premium price.
 
+```r
+equip_best <- glm(
+  claim_amount ~ equipment_age +
+    usage_int +
+    equipment_type +
+    solar_system,
+  family = Gamma(link = "log"),
+  data = sev_equi_clean
+)
+
+best_freq_equip <- glm.nb(
+  claim_count ~ equipment_type +
+    equipment_age +
+    solar_system +
+    maintenance_int +
+    usage_int +
+    offset(log(exposure)),
+  data = freq_equi_clean
+)
+```
+
 2.1.2 Coverage Triggers and Exclusions
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
