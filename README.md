@@ -263,7 +263,15 @@ size using the severity GLM. The total loss was then calculated by aggregating a
 claims across the portfolio (Appendix). Through this process, a distribution for aggregate loss
 was formed, which was then used to estimate expected loss, variance and the tail behaviours.
 
-<img width="601" height="128" alt="Screenshot 2026-04-07 at 7 38 07 pm" src="https://github.com/user-attachments/assets/b32ce7a3-04e3-49e7-9eec-a807f8b8310b" />
+## Table 2: Model Results
+
+| Metric          | Equipment Failure | Cargo Loss (Type A) | Cargo Loss (Type B) | Workers’ Compensation | Business Interruptions |
+|-----------------|-------------------|----------------------|----------------------|------------------------|-------------------------|
+| **Expected Value** | 47,824,099        | 214,759,092,951      | 8,131,007,785        | 3,953,181              | 47,068,079,272          |
+| **Variance**        | 1.08E+14          | 1.70E+19             | 2.72E+16             | 2.96E+11               | 9.91E+17                |
+| **VaR 90%**         | 59,968,164        | 220,024,910,071      | 8,341,075,937        | 4,652,532              | 48,310,348,832          |
+| **VaR 95%**         | 64,890,134        | 221,605,942,519      | 8,396,109,449        | 4,848,489              | 48,685,684,313          |
+| **VaR 99%**         | 75,651,712        | 224,514,388,783      | 8,531,384,245        | 5,246,498              | 49,465,622,831          |
 
 3.2 Pricing
 Using the aggregate loss values simulated, the short-term and long-term cash flows were
