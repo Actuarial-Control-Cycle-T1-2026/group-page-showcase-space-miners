@@ -7,7 +7,6 @@ Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
 
 
 
-## Executive Summary
 This report presents recommendations to Galaxy General’s Management Team in response to
 the request for proposals issued by Cosmic Quarry Mining Corporation (CQMC),
 who are expanding mining operations to the Helionis Cluster, Bayesia System, and Oryn
@@ -16,7 +15,7 @@ and potential challenges, the team recommends that four insurance products are o
 covering each of the four requested hazard areas: Equipment Failure, Cargo Loss, Workers’
 Compensation, and Business Interruption.
 
-## 1.Product Rationale
+## Product Rationale
 
 It is recommended that all four insurance products be offered across all three of CQMC’s
 solar systems. While the nature and severity of risks differ between the solar systems, each of
@@ -61,13 +60,14 @@ expansion, while Equipment Failure risk is present but relatively more manageabl
 
 </details>
 
-2.Product Design
+## Product Design
 
 The team has designed four key products for Galaxy General Insurance that encompass the
 four hazard areas. In an endeavour of creating suitable products, Explanatory Data Analysis
 (EDA) was conducted on historical data, which helped in identifying the key risks and
 characteristics of the underlying solar systems. These insights were incorporated into the
 benefits structures, coverage triggers and exclusions of each product.
+
 To assist with adaptability, each of the four hazard areas were split in response to their
 respective EDA analyses (see Appendix A). Equipment’s EDA, supplemented with an average
 risk index rating system, enabled the hazard to be categorised as either ‘High Risk’
@@ -78,6 +78,7 @@ averaging the results for each cargo type (Appendix Figure 4E). Gold and Platinu
 found to be more expensive, thus classified as ‘Type A Cargo’, whilst Cobalt, Lithium, Rare
 Earths, Supplies, and Titanium were relatively less valuable, hence classified as ‘Type B
 Cargo’.
+
 Workers’ Compensation’s EDA evidenced variation driven most predominately by
 occupation. As such, this hazard area was split into the sub-categories, White Collar,
 Exploration Operations, Extraction Operations, and Spacecraft Operations. Finally, unlike the
@@ -174,7 +175,7 @@ conditions. The product provides payments for lost income when an employee is un
 work due to injury, and also covers medical, hospital, and rehabilitation costs. Coverage is
 based on a per-event basis with a cap of 170K per claim. Non-white Collar workers will be
 compensated for the physical injuries and illnesses arising from hazardous environments,
-while White Collar workers will be targeted towards psychological claims, including stressrelated claims and other workplace factors. Additional considerations apply to employees
+while White Collar workers will be targeted towards psychological claims, including stress-related claims and other workplace factors. Additional considerations apply to employees
 operating within extreme solar system environments, most explicitly the Bayesia system. For
 example, the higher levels of radiation present and subsequent increased exposure will require
 workers to meet a relatively higher exposure threshold to be eligible in making radiation
@@ -226,8 +227,8 @@ General Insurance products. 
 </details>
 </details>
 
-3.Summary of Pricing and Capital Modelling 
-3.1 Modelling
+## Summary of Pricing and Capital Modelling 
+### Modelling
 Prior to pricing premiums for each hazard coverage, the appropriate distributions for severity
 and frequency were first identified to estimate aggregate losses. The severity distribution,
 which captures claim size, was selected from either the Gamma or Inverse Gaussian families.
@@ -240,7 +241,7 @@ conducted to determine the most relevant explanatory variables. These variables 
 used to fit Generalised Linear Models (GLMs), with link functions corresponding to the
 chosen distributions shown in Table 1 (refer to Appendix B for full model specifications).
 
-## Table 1: Model Distributions
+Table 1: Model Distributions
 
 | Hazard Coverage                | Frequency           | Severity          |
 |--------------------------------|---------------------|-------------------|
@@ -367,7 +368,7 @@ size using the severity GLM. The total loss was then calculated by aggregating a
 claims across the portfolio (Appendix). Through this process, a distribution for aggregate loss
 was formed, which was then used to estimate expected loss, variance and the tail behaviours.
 
-## Table 2: Model Results
+Table 2: Model Results
 
 | Metric          | Equipment Failure | Cargo Loss (Type A) | Cargo Loss (Type B) | Workers’ Compensation | Business Interruptions |
 |-----------------|-------------------|----------------------|----------------------|------------------------|-------------------------|
@@ -546,7 +547,7 @@ for (s in 1:S) {
 ```
 </details>
 
-3.2 Pricing
+### Pricing
 Using the aggregate loss values simulated, the short-term and long-term cash flows were
 projected. Using industry standards, a cost flat rate of 10% was applied to all hazard areas, capturing administration, processing, and tax costs. Further, with considerations to
 specific characteristics, the hazard areas were segmented and assigned respective loading
@@ -559,7 +560,7 @@ invested into a well-diversified portfolio at the 2174 interest rate. As such, t
 Total Cost, Premium Income, and Investment Income determines the Profit and Profit
 Margin.
 
-### Table 3: Short Term Predicted Financials
+Table 3: Short Term Predicted Financials
 
 | Category              | Equipment Failure | Cargo Loss (Type B) | Workers’ Compensation | Business Interruption |
 |----------------------|-------------------|----------------------|------------------------|-------------------------|
@@ -595,11 +596,14 @@ Assuming that no reserves are held previously, 50% of the total profits at the e
 are invested in 2176 whilst the other 50% are held in reserves. Investment funds are then
 accumulated annually, supplemented by an additional 95% of the total premiums received at
 the beginning of each year, with the remaining 5% allocated to reserves.
+
 Aggregate Loss projections for all four hazard areas seem to follow a similar, consistent
 upward trend with an increase of approximately 70% over the 10 years. Profit margins also
 tend to improve sharply in the early years and follow a steady upward trajectory thereafter. 
 
-3.2.1 Equipment Failure
+
+#### Equipment Failure
+
 Evidently, while high-risk units carry greater per unit loss potential, the bulk of aggregate
 premium income is generated by the low-risk cohort.
 
@@ -624,7 +628,7 @@ premium
   <img width="401" height="240" alt="Screenshot 2026-04-07 at 8 56 25 pm" src="https://github.com/user-attachments/assets/346dbed3-7a6a-483e-ab4f-6640c44d7b27" />
 </div>
 
-3.2.3 Workers’ Compensation
+#### Workers’ Compensation
 The Workers’ Compensation pricing model is segmented into four different classifications of
 workers, with loading premiums calibrated in reference to the EDA and Safe Work Australia
 (2023) industry standards. 
@@ -641,7 +645,7 @@ workers, with loading premiums calibrated in reference to the EDA and Safe Work 
   <img width="401" height="230" alt="Screenshot 2026-04-07 at 8 56 50 pm" src="https://github.com/user-attachments/assets/8e0ddab2-0498-4577-8766-842aac6f2fe5" />
 </div>
 
-3.2.4 Business Interruption
+#### Business Interruption
 Business Interruption is treated as a single classification. The resulting total premium of $55.4
 billion makes this hazard the largest line of income among all the insurance products.
 
