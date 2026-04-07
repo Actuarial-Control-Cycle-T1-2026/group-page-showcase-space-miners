@@ -28,7 +28,7 @@ Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
 <img width="570" height="316" alt="Screenshot 2026-04-07 at 7 23 22 pm" src="https://github.com/user-attachments/assets/4fbc15df-c9df-44ad-970e-1c13e5e29cd2" />
 
 
-##Executive Summary
+Executive Summary
 This report presents recommendations to Galaxy General’s Management Team in response to
 the request for proposals issued by Cosmic Quarry Mining Corporation (CQMC),
 who are expanding mining operations to the Helionis Cluster, Bayesia System, and Oryn
@@ -36,7 +36,9 @@ Delta. Following a thorough actuarial analysis of the historical claims, prospec
 and potential challenges, the team recommends that four insurance products are offered,
 covering each of the four requested hazard areas: Equipment Failure, Cargo Loss, Workers’
 Compensation, and Business Interruption.
+
 1. Product Rationale
+
 It is recommended that all four insurance products be offered across all three of CQMC’s
 solar systems. While the nature and severity of risks differ between the solar systems, each of
 the three present exposure across all four hazard areas. Thus, excluding any product from any
@@ -45,12 +47,14 @@ offering these insurance products to CQMC is expected to be a profitable busines
 Galaxy General. However, it is to be noted that each solar system should place priority on
 different hazard areas according to their distinct operational and environmental
 characteristics.
+
 1.1 Helionis Cluster
 Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
 frequent micro-collisions, and shifting debris clouds. The periodic need to shield and re-
 position relay satellites perpetuates such risk, which can be mitigated through Business
 Interruptions insurance coverage, supporting its inclusion.
+
 1.2 Bayesia System
 The priority coverages for the Bayesia System should be Workers’ Compensation and
 Equipment Failure. Radiation spikes, combined with the high gravity and thin magnetosphere
@@ -64,7 +68,7 @@ through this zone is high and growing. The dwarf star’s potential for unpredic
 combined with inconsistent long-range communications supports the need for Business
 Interruption coverage. Workers’ Compensation is also elevated given the risky nature of the
 expansion, while Equipment Failure risk is present but relatively more manageable.
-2. Product Design
+3. Product Design
 The team has designed four key products for Galaxy General Insurance that encompass the
 four hazard areas. In an endeavour of creating suitable products, Explanatory Data Analysis
 (EDA) was conducted on historical data, which helped in identifying the key risks and
