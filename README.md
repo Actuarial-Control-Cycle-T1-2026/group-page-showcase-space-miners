@@ -190,6 +190,7 @@ strikes, and structural issues such as bankruptcy, liquidity or financial proble
 extreme events, claims for business interruption can only be collected for revenue loss. Any
 specific damages (e.g., to equipment) must be claimed through the other respective Galaxy
 General Insurance products. 
+
 3. Summary of Pricing and Capital Modelling 
 3.1 Modelling
 Prior to pricing premiums for each hazard coverage, the appropriate distributions for severity
@@ -203,6 +204,14 @@ Following the selection of the best-fitting distribution, a forward subset selec
 conducted to determine the most relevant explanatory variables. These variables were then
 used to fit Generalised Linear Models (GLMs), with link functions corresponding to the
 chosen distributions shown in Table 1 (refer to Appendix B for full model specifications).
+
+| Hazard Coverage                | Frequency           | Severity          |
+|--------------------------------|---------------------|-------------------|
+| Equipment Failure              | Negative Binomial   | Gamma             |
+| Cargo Loss (Type A)            | Poisson             | Gamma             |
+| Cargo Loss (Type B)            | Negative Binomial   | Gamma             |
+| Workers’ Compensation          | Negative Binomial   | Gamma             |
+| Business Interruption          | Negative Binomial   | Inverse Gaussian  |
 
 <img width="332" height="127" alt="Screenshot 2026-04-07 at 7 37 29 pm" src="https://github.com/user-attachments/assets/03c60406-ae09-4881-a809-4162fe336288" />
 
