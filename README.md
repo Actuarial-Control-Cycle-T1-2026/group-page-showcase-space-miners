@@ -148,8 +148,12 @@ insurance.
 </details>
 
 
-2.2. Cargo Loss
-2.2.1 Benefit Structure
+<details>
+<summary>Cargo Loss</summary>
+
+<details>
+<summary>Benefit Structure</summary>
+  
 Cargo Loss insurance provides coverage for loss and damage to the cargo resulting from
 accidental damage, theft and environmental impacts during transportation. The coverage is
 provided on a per shipment basis, with a maximum claim amount of 38 million (Type B)
@@ -161,7 +165,10 @@ conditions. Premium adjustments were determined by considering specific route ri
 duration, and hazards for operations in select solar systems, namely, Helionis Cluster and
 Oryn Delta. 
 
-2.2.2 Coverage Triggers and Exclusions 
+</details>
+<details>
+<summary>Coverage Triggers and Exclusions</summary>
+  
 The coverage is triggered from losses and damages occurring due to events such as collisions,
 navigation hazards, and environmental hazards such as asteroids and solar activity.
 Furthermore, coverage extends to third-party interference and operational failures. All events
@@ -172,8 +179,16 @@ and incidents occurring outside the insured period are not covered. All the rout
 transportation must meet established safety standards and achieve minimum clearance
 requirements to be eligible for coverage. 
 
-2.3. Workers’ Compensation 
-2.3.1 Benefit Structure 
+</details>
+</details>
+
+
+<details>
+<summary>Workers' Compensation</summary>
+
+<details>
+<summary>Benefit Structure</summary>
+  
 The Workers’ Compensation hazard component of the insurance provides coverage and
 financial support for CQMC employees who sustain injuries, illness and work-induced
 conditions. The product provides payments for lost income when an employee is unable to
@@ -187,7 +202,10 @@ workers to meet a relatively higher exposure threshold to be eligible in making 
 related claims. Conversely, those who work in lower pre-defined exposure systems will be
 eligible for potential discounts.
 
-2.3.2 Coverage Triggers and Exclusions 
+</details>
+<details>
+<summary>Coverage Triggers and Exclusions</summary>
+  
 Coverage will only be triggered from claims for injury or illness sustained during the course
 of employment with the firm, with potential causes including workplace accidents,
 environmental hazards, operational incidents and work-related stress. The claims will be
@@ -196,14 +214,25 @@ There will be exclusions applied to limit the amount and frequency of the claims
 example, intentional injuries, self-inflicted injuries, pre-existing medical conditions and death
 will not be covered as part of this insurance policy
 
-2.4. Business Interruption
-2.4.1 Benefit Structure
+</details>
+</details>
+
+
+<details>
+<summary>Business Interruption</summary>
+
+<details>
+<summary>Benefit Structure</summary>
+  
 Business Interruption insurance claims can be made to compensate for revenue loss and cover
 fixed operational expenses, including salaries, rent and utilities. The maximum payout amount
 per event is 1,426K to limit exposure to extreme claims. Premiums for the three solar systems
-were priced the same, as they all exhibited similar levels of interruption risk
+were priced the same, as they all exhibited similar levels of interruption risk.
 
-2.4.2 Coverage Triggers and Exclusions
+</details>
+<details>
+<summary>Coverage Triggers and Exclusions</summary>
+  
 The coverage triggers for business interruption policies involve large operational delays or
 forced shutdowns caused by unforeseen and unintentional external factors such as natural
 disasters, supply failure, burglary, satellite failure, or communication failure. Conditions that
@@ -214,6 +243,9 @@ strikes, and structural issues such as bankruptcy, liquidity or financial proble
 extreme events, claims for business interruption can only be collected for revenue loss. Any
 specific damages (e.g., to equipment) must be claimed through the other respective Galaxy
 General Insurance products. 
+
+</details>
+</details>
 
 3. Summary of Pricing and Capital Modelling 
 3.1 Modelling
