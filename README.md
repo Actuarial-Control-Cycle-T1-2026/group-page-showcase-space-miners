@@ -59,27 +59,28 @@ Interruptions insurance coverage, supporting its inclusion.
 
 </details>
 
-1.1 Helionis Cluster
-Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
-Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
-frequent micro-collisions, and shifting debris clouds. The periodic need to shield and re-
-position relay satellites perpetuates such risk, which can be mitigated through Business
-Interruptions insurance coverage, supporting its inclusion.
+<details>
+<summary>Bayesia System</summary>
 
-1.2 Bayesia System
 The priority coverages for the Bayesia System should be Workers’ Compensation and
 Equipment Failure. Radiation spikes, combined with the high gravity and thin magnetosphere
 environment, creates elevated health and safety risks and accelerated degradation of mining
 equipment. Business Interruption is also material, as radiation events have the potential to
 force unplanned operational shutdowns, for indefinite periods of time.
 
-1.3 Oryn Delta
+</details>
+
+<details>
+<summary>Oryn Delta</summary>
+
 Oryn Delta presents the least predictable risk profile of the three systems. The expansion into
 the system’s asymmetric asteroid ring makes Cargo Loss a critical priority as transit risk
 through this zone is high and growing. The dwarf star’s potential for unpredictable flares,
 combined with inconsistent long-range communications supports the need for Business
 Interruption coverage. Workers’ Compensation is also elevated given the risky nature of the
 expansion, while Equipment Failure risk is present but relatively more manageable.
+
+</details>
 
 2.Product Design
 
