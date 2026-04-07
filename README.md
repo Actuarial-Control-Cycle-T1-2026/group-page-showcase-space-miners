@@ -863,9 +863,8 @@ mitigation strategies have been outlined in section below to ensure that the pro
 profitable, robust and useful.
 
 <div align="center">
- <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/5e4f40e8-57a0-4714-84a1-5a1932e36628" />
+  <img width="322" height="269" alt="Screenshot 2026-04-07 at 10 00 40 pm" src="https://github.com/user-attachments/assets/34d2c87f-3982-45c6-8394-3fb28e487aeb" />
 </div>
-
 
 ### Tabulation of Risk Types
 
