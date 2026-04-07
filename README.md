@@ -524,51 +524,27 @@ profitable, robust and useful.
 | Ethical Risk | Pricing may unintentionally bias different individuals based on certain (policyholder) characteristics. | Risk pooling is used to spread the financial burden of losses across all individuals. For example, pool the risks of drill operators and C-suite executives. This ensures equitability. |
 
 
-5. An Evaluation of Ethics and ESG Considerations
-The Galaxy General Insurance Company has a strong commitment to upholding ESG values,
-which is underpinned by strong ethical guidelines. A prominent ethical consideration entails
-ensuring the affordability of insurance products for all socioeconomic classes. For example,
-drill operators are exposed to significant risk in their daily duties relative to technical
-employees. The foundational principle of risk-pooling is used to help distribute aggregate risk
-across the policyholder pool. Otherwise, premiums would be more exorbitant for the lowerskilled workers, who tend to come from lower socioeconomic classes, contributing to greater
-income inequality. Furthermore, CQMC’s operations are, by nature, detrimental to the solar
-system environment. However, such operations have been necessitated due to the depletion of
-resources on Earth and providing insurance for these intense mining operations and expansion
-plans are ethically justified by the primitive need for survival. As an insurer, climate risk will
-be regularly reviewed to ensure the suitability of individual product design. Furthermore,
-strong corporate governance procedures have been implemented to ensure the financial
-feasibility of the insurer’s operations (i.e. ensuring solvency). This includes setting aside
-strong reserves, stress testing and profit testing various possible catastrophe events.
-6. Assumptions
-General report assumptions are based on knowledge of the current earthly environment due to
-a lack of future understanding. Further, it was assumed that the historical claims data for the
-three existing solar systems can be used as a proxy and be accurately mapped onto the
-emerging solar systems, given that this was the only data available. It is assumed that CQMC
-will have consistent yearly mining yield for the given time horizon. As more data is acquired,
-yearly revisions of product design, modelling, pricing and key assumptions will be made, in
-line with the ‘monitoring results’ component of the ACC. Specific assumptions and their
-rationale for product design, modelling, and pricing can be found in their respective
-subsections (above).
-7. Data and Data Limitations
-The claims datasets contained several limitations that required remediation prior to modelling.
-Observations with values falling outside the given, plausible range of each variable were
-removed as it was likely a data entry or recording error that cannot be inferred. A special case
-was applied for the Equipment dataset, where only negative “equipment ages” were removed
-since otherwise a significant proportion (42,000) claims would have needed to be removed.
-The values of claims for Workers Compensation were inferred to be in “K’s” (thousands).
-Certain categorical fields contained irregular formatting, such as non-standard characters and
-transcription errors, which were standardised to ensure consistent grouping. Further, policies
-that presented a 0-claim count with a positive claim amount were removed. Some records
-contained missing values, however there was sufficient contextual information across the
-severity and frequency sheets for this data to be reconciled. The data cleaning decisions
-had a minimal overall impact on the data with 1.24%, 5.8%, 1.35%, 1.4% of the four ordered
-hazard datasets being removed respectively. However, their impact on modelled loss
-estimates is recognised and is still considered in the interpretation of results. 
-Conclusion
-Overall, it is recommended that Galaxy General sells the four insurance products excluding
-Cargo Type A to all three solar systems with tailored product designs. This insurance
-undertaking is financially sustainable in the long term despite the potential exogenous risks
-posed by the expansion into new solar systems.
+## 5. An Evaluation of Ethics and ESG Considerations
+
+The Galaxy General Insurance Company has a strong commitment to upholding ESG values, which is underpinned by strong ethical guidelines. A prominent ethical consideration entails ensuring the affordability of insurance products for all socioeconomic classes. For example, drill operators are exposed to significant risk in their daily duties relative to technical employees. The foundational principle of risk-pooling is used to help distribute aggregate risk across the policyholder pool. Otherwise, premiums would be more exorbitant for the lower-skilled workers, who tend to come from lower socioeconomic classes, contributing to greater income inequality.
+
+Furthermore, CQMC’s operations are, by nature, detrimental to the solar system environment. However, such operations have been necessitated due to the depletion of resources on Earth and providing insurance for these intense mining operations and expansion plans are ethically justified by the primitive need for survival. As an insurer, climate risk will be regularly reviewed to ensure the suitability of individual product design. Furthermore, strong corporate governance procedures have been implemented to ensure the financial feasibility of the insurer’s operations (i.e. ensuring solvency). This includes setting aside strong reserves, stress testing and profit testing various possible catastrophe events.
+
+## 6. Assumptions
+
+General report assumptions are based on knowledge of the current earthly environment due to a lack of future understanding. Further, it was assumed that the historical claims data for the three existing solar systems can be used as a proxy and be accurately mapped onto the emerging solar systems, given that this was the only data available. It is assumed that CQMC will have consistent yearly mining yield for the given time horizon. As more data is acquired, yearly revisions of product design, modelling, pricing and key assumptions will be made, in line with the ‘monitoring results’ component of the ACC. Specific assumptions and their rationale for product design, modelling, and pricing can be found in their respective subsections (above).
+
+## 7. Data and Data Limitations
+
+The claims datasets contained several limitations that required remediation prior to modelling. Observations with values falling outside the given, plausible range of each variable were removed as it was likely a data entry or recording error that cannot be inferred. A special case was applied for the Equipment dataset, where only negative “equipment ages” were removed since otherwise a significant proportion (42,000) claims would have needed to be removed. The values of claims for Workers Compensation were inferred to be in “K’s” (thousands).
+
+Certain categorical fields contained irregular formatting, such as non-standard characters and transcription errors, which were standardised to ensure consistent grouping. Further, policies that presented a 0-claim count with a positive claim amount were removed. Some records contained missing values, however there was sufficient contextual information across the severity and frequency sheets for this data to be reconciled.
+
+The data cleaning decisions had a minimal overall impact on the data with 1.24%, 5.8%, 1.35%, 1.4% of the four ordered hazard datasets being removed respectively. However, their impact on modelled loss estimates is recognised and is still considered in the interpretation of results.
+
+## Conclusion
+
+Overall, it is recommended that Galaxy General sells the four insurance products excluding Cargo Type A to all three solar systems with tailored product designs. This insurance undertaking is financially sustainable in the long term despite the potential exogenous risks posed by the expansion into new solar systems.
 
 ![tumblr_npyspyKTZz1qf12swo1_500-1](https://github.com/user-attachments/assets/f89bdd0e-797a-4080-b836-c7b81cb5374d)
 
