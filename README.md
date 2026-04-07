@@ -680,8 +680,6 @@ Under all these scenarios, both the claim frequency and severity were inflated b
 scenarios and their respective inflation factors, allow for the analysis of correlation-driven
 events, without venturing into an unrealistic domain. 
 
-<h2>Table 8: Scenario Test Results</h2>
-
 <!-- EQUIPMENT -->
 <h3>Equipment</h3>
 <table>
