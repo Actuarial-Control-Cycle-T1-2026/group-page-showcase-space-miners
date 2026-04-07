@@ -48,6 +48,17 @@ Galaxy General. However, it is to be noted that each solar system should place p
 different hazard areas according to their distinct operational and environmental
 characteristics.
 
+<details>
+<summary>Helionis Cluster</summary>
+
+Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
+Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
+frequent micro-collisions, and shifting debris clouds. The periodic need to shield and re-
+position relay satellites perpetuates such risk, which can be mitigated through Business
+Interruptions insurance coverage, supporting its inclusion.
+
+</details>
+
 1.1 Helionis Cluster
 Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
