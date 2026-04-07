@@ -562,7 +562,7 @@ and their respective sub-sections. The Premium Income represents the sum of the 
 premium amounts, while Investment Income assumes the entirety of the Premium Income is
 invested into a well-diversified portfolio at the 2174 interest rate. As such, the inclusion of
 Total Cost, Premium Income, and Investment Income determines the Profit and Profit
-Margin.
+Margin. (Refer to [Spreadsheet](https://github.com/Actuarial-Control-Cycle-T1-2026/group-page-showcase-space-miners/blob/main/Pricing%20%2B%20Reserves.xlsx) for more details.)
 
 Table 3: Short Term Predicted Financials
 
@@ -905,7 +905,7 @@ The data cleaning decisions had a minimal overall impact on the data with 1.24%,
 
 Overall, it is recommended that Galaxy General sells the four insurance products excluding Cargo Type A to all three solar systems with tailored product designs. This insurance undertaking is financially sustainable in the long term despite the potential exogenous risks posed by the expansion into new solar systems.
 
-To view full report + Appendix [Click Here](https://github.com/Actuarial-Control-Cycle-T1-2026/group-page-showcase-space-miners/blob/main/ACTL4001%20Formatted-1.pdf). 
+To view full report + Appendix [Click Here](https://github.com/Actuarial-Control-Cycle-T1-2026/group-page-showcase-space-miners/blob/main/Full%20Report.pdf). 
 
 ![im-coming-ben-stiller](https://github.com/user-attachments/assets/f3616703-04ca-48cd-9eed-730d8f158f58)
 
