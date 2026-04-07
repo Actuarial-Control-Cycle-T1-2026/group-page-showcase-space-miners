@@ -238,7 +238,7 @@ invested into a well-diversified portfolio at the 2174 interest rate. As such, t
 Total Cost, Premium Income, and Investment Income determines the Profit and Profit
 Margin.
 
-# Table 3: Short Term Predicted Financials
+### Table 3: Short Term Predicted Financials
 
 | Category              | Equipment Failure | Cargo Loss (Type B) | Workers’ Compensation | Business Interruption |
 |----------------------|-------------------|----------------------|------------------------|-------------------------|
