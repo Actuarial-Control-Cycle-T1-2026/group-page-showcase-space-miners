@@ -124,34 +124,6 @@ equipment. This ultimately led to higher premiums for the Bayesia System, lower 
 for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
 major risk attributes that would warrant a higher premium price.
 
-<details>
-<summary>Equipment Failure Best Model</summary>
-
-```r
-equip_best <- glm(
-  claim_amount ~ equipment_age +
-    usage_int +
-    equipment_type +
-    solar_system,
-  family = Gamma(link = "log"),
-  data = sev_equi_clean
-)
-
-best_freq_equip <- glm.nb(
-  claim_count ~ equipment_type +
-    equipment_age +
-    solar_system +
-    maintenance_int +
-    usage_int +
-    offset(log(exposure)),
-  data = freq_equi_clean
-)
-```
-
-</details>
-
-
-
 2.1.2 Coverage Triggers and Exclusions
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
@@ -255,7 +227,109 @@ chosen distributions shown in Table 1 (refer to Appendix B for full model specif
 | Workers’ Compensation          | Negative Binomial   | Gamma             |
 | Business Interruption          | Negative Binomial   | Inverse Gaussian  |
 
+```r
+# =========================
+# Equipment Models
+# =========================
 
+equip_best <- glm(
+  claim_amount ~ equipment_age +
+    usage_int +
+    equipment_type +
+    solar_system,
+  family = Gamma(link = "log"),
+  data = sev_equi_clean
+)
+
+best_freq_equip <- glm.nb(
+  claim_count ~ equipment_type +
+    equipment_age +
+    solar_system +
+    maintenance_int +
+    usage_int +
+    offset(log(exposure)),
+  data = freq_equi_clean
+)
+
+
+# =========================
+# Worker's Compensation Models
+# =========================
+
+workers_best <- glm(
+  claim_amount ~ base_salary +
+    psych_stress_index +
+    hours_per_week +
+    protective_gear_quality +
+    safety_training_index +
+    experience_yrs +
+    accident_history_flag +
+    supervision_level +
+    gravity_level +
+    employment_type +
+    solar_system,
+  family = Gamma(link = "log"),
+  data = work_sev_data
+)
+
+best_freq_workers <- glm.nb(
+  claim_count ~ occupation +
+    safety_training_index +
+    psych_stress_index +
+    accident_history_flag +
+    gravity_level +
+    offset(log(exposure)),
+  data = freq_workers_clean
+)
+
+
+# =========================
+# Business Interruption Models
+# =========================
+
+bus_best <- glm(
+  claim_amount ~ solar_system +
+    exposure,
+  family = inverse.gaussian(link = "log"),
+  data = sev_bus_clean
+)
+
+summary(bus_best)
+
+freq_best_negative <- glm.nb(
+  claim_count ~ offset(log(exposure)) +
+    maintenance_freq +
+    supply_chain_index +
+    energy_backup_score +
+    solar_system,
+  data = freq_bus_clean
+)
+
+
+# =========================
+# Cargo Type B Models
+# =========================
+
+cargo_typeB_best_gamma <- glm(
+  claim_amount ~ cargo_type +
+    weight +
+    route_risk +
+    solar_radiation +
+    debris_density,
+  family = Gamma(link = "log"),
+  data = sev_cargo_typeB_clean
+)
+
+cargo_typeB_poi <- glm(
+  claim_count ~ route_risk +
+    weight +
+    cargo_type +
+    container_type +
+    offset(log(exposure)),
+  family = poisson(link = "log"),
+  data = freq_cargo_typeB_clean
+)
+```
 Finally, a Monte Carlo simulation with 10,000 iterations was conducted to estimate the
 aggregate loss distribution. The number of simulations was chosen with considerations to
 both computational constraints and accuracy. Under each iteration, the number of claims was
