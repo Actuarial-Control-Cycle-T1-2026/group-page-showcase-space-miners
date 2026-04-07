@@ -509,8 +509,19 @@ profitable, robust and useful.
 
 <img width="317" height="298" alt="Screenshot 2026-04-07 at 7 41 51 pm" src="https://github.com/user-attachments/assets/016ffe4d-4843-4712-8911-ebc28f8031f7" />
 
+### 4.2 Tabulation of Risk Types
 
-<img width="437" height="648" alt="Screenshot 2026-04-07 at 7 42 14 pm" src="https://github.com/user-attachments/assets/cd88aaa4-cdad-4af3-b675-8a664882b50c" />
+| Risk Type | Description | Mitigation Strategy |
+|---|---|---|
+| Catastrophic Risk | A correlated catastrophe event could trigger simultaneous large claims across all four coverages and all three systems. | Implementation of policy limits to cap the maximum exposure from a single correlated event. This is particularly relevant for the Cargo dataset, whereby catastrophe risk is high, and losses tend to be extreme. Also, a proportion of premiums will be set aside as reserves to account for potential catastrophic events. |
+| Data and Model Risk | The absence of credible system specific claims data means the models rely heavily on assumptions. | Ensure assumptions are realistic, coherent and grounded by some data and/or factual evidence. Ensure models are validated by common metrics including AIC and BIC. Models will be updated with new data regularly to ensure they remain reliable and accurate. |
+| Operational Risk | Communication delays between solar systems slowing claims detection and response. | Implement an intergalactic standard procedure for acceptable time frames for claim detection and response. Impose a buffer period in case of unforeseen circumstances (e.g., a 72-hour claim extension). Adhere to contingency protocols. |
+| Underwriting Risk | Risk that the actual claims deviate adversely from priced expectations. | Consistently monitor and review figures annually and use emerging claims to ensure the product remains fit for purpose. |
+| Regulatory Risk | Interstellar insurance is regulated under the Galactic Insurance Authority with compliance obligations and capital requirements. | Maintain ongoing engagement with the Galactic Insurance Authority (GIA) to monitor evolving compliance obligations. Capital reserves should be held above the minimum GIA benchmark to buffer against future regulatory changes. |
+| Economic & Financial Risk | Economic recessions may increase lapse rates, cause higher inflation and unexpectedly reduce demand for insurance products. | Make economic projections to determine economic cycles (e.g. boom or bust) and plan accordingly. Hold additional reserves during inflationary periods and similarly, ensure strong cash inflows during recessional periods in case of high policy lapse rates. |
+| Competition Risk | Uncompetitive premiums may reduce market share and jeopardise profitability. | Ensure premium loading factors are consistent with competitors. Ensure products are priced competitively. Regularly monitor premium prices within the industry and respond accordingly. |
+| Interest Rate Risk | Investment income may decline if interest rates fall below expectation or vary erratically. | Construct a portfolio that combines interest rate sensitive assets with less sensitive assets to reduce volatility. |
+| Ethical Risk | Pricing may unintentionally bias different individuals based on certain (policyholder) characteristics. | Risk pooling is used to spread the financial burden of losses across all individuals. For example, pool the risks of drill operators and C-suite executives. This ensures equitability. |
 
 
 5. An Evaluation of Ethics and ESG Considerations
