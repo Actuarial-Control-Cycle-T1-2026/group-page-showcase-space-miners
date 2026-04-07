@@ -145,7 +145,6 @@ policy inception. Additionally, any equipment older than 30 years will not be el
 insurance.
 
 </details>
-
 </details>
 
 
