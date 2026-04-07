@@ -49,10 +49,10 @@ system would leave CQMC with significant uninsured gaps in its ERM framework. As
 offering these insurance products to CQMC is expected to be a profitable business venture for
 Galaxy General. However, it is to be noted that each solar system should place priority on
 different hazard areas according to their distinct operational and environmental
-characteristics.
+characteristics. [Click on the arrows for more information]
 
 <details>
-<summary>[Click Here] Helionis Cluster</summary>
+<summary> Helionis Cluster</summary>
 
 Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
