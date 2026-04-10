@@ -7,7 +7,12 @@
   Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
 </div>
 
-
+## Table of Contents
+- [Executive Summary](#Executive-Summary)
+- [Product Rationale](#Product-Rationale)
+- [Product Design](#Product-Design)
+- [Modelling](#Modelling)
+- [Pricing](#Pricing)
 
 ## Executive Summary
 
