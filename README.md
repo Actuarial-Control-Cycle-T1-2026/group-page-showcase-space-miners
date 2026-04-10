@@ -18,8 +18,7 @@
 - [Risk Assessment](#Risk-Assessment)
 - [An Evaluation of Ethics and ESG Considerations](#An-Evaluation-of-Ethics-and-ESG-Considerations)
 - [Assumptions](#Assumptions)
-- [Data and Data Limitations](#Data-and-Data-Limitations)
-- [Pricing](#Pricing)
+- [Data and Data Limitations](#Data-and-Data-Limitations) 
 - [Conclusion](#Conclusion) 
 
 ## Executive Summary
