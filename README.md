@@ -12,7 +12,15 @@
 - [Product Rationale](#Product-Rationale)
 - [Product Design](#Product-Design)
 - [Modelling](#Modelling)
+- [Modelling](#Modelling)
 - [Pricing](#Pricing)
+- [Stress Testing For Extreme Scenarios](#Stress-Testing-For-Extreme-Scenarios)
+- [Risk Assessment](#Risk-Assessment)
+- [An Evaluation of Ethics and ESG Considerations](#An-Evaluation-of-Ethics-and-ESG-Considerations)
+- [Assumptions](#Assumptions)
+- [Data and Data Limitations](#Data-and-Data-Limitations)
+- [Pricing](#Pricing)
+- [Conclusion](#Conclusion) 
 
 ## Executive Summary
 
