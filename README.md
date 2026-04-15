@@ -41,7 +41,7 @@ different hazard areas according to their distinct operational and environmental
 characteristics. [Click on the arrows for more information.]
 
 <details>
-<summary> ➡️ Helionis Cluster</summary>
+<summary> > Helionis Cluster</summary>
 
 Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
@@ -52,7 +52,7 @@ Interruptions insurance coverage, supporting its inclusion.
 </details>
 
 <details>
-<summary>➡️ Bayesia System</summary>
+<summary> > Bayesia System</summary>
 
 The priority coverages for the Bayesia System should be Workers’ Compensation and
 Equipment Failure. Radiation spikes, combined with the high gravity and thin magnetosphere
@@ -63,7 +63,7 @@ force unplanned operational shutdowns, for indefinite periods of time.
 </details>
 
 <details>
-<summary>➡️ Oryn Delta</summary>
+<summary> > Oryn Delta</summary>
 
 Oryn Delta presents the least predictable risk profile of the three systems. The expansion into
 the system’s asymmetric asteroid ring makes Cargo Loss a critical priority as transit risk
@@ -242,11 +242,11 @@ fierce solar storm (or any other adverse solar event) as a level 1 compliant ope
 </details>
 
 <details>
-<summary>Equipment Failure</summary>
+<summary> > Equipment Failure</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 Equipment Failure insurance provides coverage for losses arising from mechanical
 breakdown, electrical failures, explosions and operational malfunctions during the mining
@@ -264,7 +264,7 @@ major risk attributes that would warrant a higher premium price.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
@@ -284,11 +284,11 @@ insurance.
 
 
 <details>
-<summary>Cargo Loss</summary>
+<summary> > Cargo Loss</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 Cargo Loss insurance provides coverage for loss and damage to the cargo resulting from
 accidental damage, theft and environmental impacts during transportation. The coverage is
@@ -304,7 +304,7 @@ Oryn Delta.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 The coverage is triggered from losses and damages occurring due to events such as collisions,
 navigation hazards, and environmental hazards such as asteroids and solar activity.
@@ -323,11 +323,11 @@ requirements to be eligible for coverage.
 
 
 <details>
-<summary>Workers' Compensation</summary>
+<summary> > Workers' Compensation</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 The Workers' Compensation hazard component of the insurance provides coverage and
 financial support for CQMC employees who sustain injuries, illness and work-induced
@@ -345,7 +345,7 @@ eligible for potential discounts.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 Coverage will only be triggered from claims for injury or illness sustained during the course
 of employment with the firm, with potential causes including workplace accidents,
@@ -362,11 +362,11 @@ will not be covered as part of this insurance policy.
 
 
 <details>
-<summary>Business Interruption</summary>
+<summary> > Business Interruption</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 Business Interruption insurance claims can be made to compensate for revenue loss and cover
 fixed operational expenses, including salaries, rent and utilities. The maximum payout amount
@@ -376,7 +376,7 @@ were priced the same, as they all exhibited similar levels of interruption risk.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 The coverage triggers for business interruption policies involve large operational delays or
 forced shutdowns caused by unforeseen and unintentional external factors such as natural
