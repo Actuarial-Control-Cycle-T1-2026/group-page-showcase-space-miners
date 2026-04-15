@@ -41,6 +41,7 @@ Galaxy General. However, it is to be noted that each solar system should place p
 different hazard areas according to their distinct operational and environmental
 characteristics. [Click on the arrows for more information.]
 
+<div style="margin-bottom: 16px;">
 <details>
 <summary> > Helionis Cluster</summary>
 <div style="margin-left: 20px; margin-top: 8px; background-color: #f6f6f6; border-left: 3px solid #ccc; padding: 8px 12px; color: #555;">
@@ -52,6 +53,7 @@ Interruptions insurance coverage, supporting its inclusion.</p>
 </div>
 </details>
 
+<div style="margin-bottom: 16px;">
 <details>
 <summary> > Bayesia System</summary>
 <div style="margin-left: 20px; margin-top: 8px; background-color: #f6f6f6; border-left: 3px solid #ccc; padding: 8px 12px; color: #555;">
@@ -63,6 +65,7 @@ force unplanned operational shutdowns, for indefinite periods of time.</p>
 </div>
 </details>
 
+<div style="margin-bottom: 16px;">
 <details>
 <summary> > Oryn Delta</summary>
 <div style="margin-left: 20px; margin-top: 8px; background-color: #f6f6f6; border-left: 3px solid #ccc; padding: 8px 12px; color: #555;">
