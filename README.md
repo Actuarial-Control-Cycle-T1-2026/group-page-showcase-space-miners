@@ -42,40 +42,6 @@ characteristics. [Click on the arrows for more information.]
 
 <details>
 <summary> > Helionis Cluster</summary>
-
-Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
-Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
-frequent micro-collisions, and shifting debris clouds. The periodic need to shield and re-
-position relay satellites perpetuates such risk, which can be mitigated through Business
-Interruptions insurance coverage, supporting its inclusion.
-
-</details>
-
-<details>
-<summary> > Bayesia System</summary>
-
-The priority coverages for the Bayesia System should be Workers’ Compensation and
-Equipment Failure. Radiation spikes, combined with the high gravity and thin magnetosphere
-environment, creates elevated health and safety risks and accelerated degradation of mining
-equipment. Business Interruption is also material, as radiation events have the potential to
-force unplanned operational shutdowns, for indefinite periods of time.
-
-</details>
-
-<details>
-<summary> > Oryn Delta</summary>
-
-Oryn Delta presents the least predictable risk profile of the three systems. The expansion into
-the system’s asymmetric asteroid ring makes Cargo Loss a critical priority as transit risk
-through this zone is high and growing. The dwarf star’s potential for unpredictable flares,
-combined with inconsistent long-range communications supports the need for Business
-Interruption coverage. Workers’ Compensation is also elevated given the risky nature of the
-expansion, while Equipment Failure risk is present but relatively more manageable.
-
-</details>
-
-<details>
-<summary> > Helionis Cluster</summary>
 <div style="margin-left: 20px; margin-top: 8px; background-color: #f6f6f6; border-left: 3px solid #ccc; padding: 8px 12px; color: #555;">
 <p>Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster's two major asteroid clusters present significant risk with their erratic drift patterns,
