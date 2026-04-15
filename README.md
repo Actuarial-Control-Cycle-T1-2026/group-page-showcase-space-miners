@@ -103,151 +103,13 @@ as safety compliance and maintenance frequency held minimal importance. For exam
 level 5 safety compliant operation is equally compelled to cease business operation during a
 fierce solar storm (or any other adverse solar event) as a level 1 compliant operation. [Click on the arrows for more information.]
 
-
-<details>
-<summary>Equipment Failure</summary>
-
-><details>
-><summary>Benefit Structure</summary>
->  
->Equipment Failure insurance provides coverage for losses arising from mechanical
->breakdown, electrical failures, explosions and operational malfunctions during the mining
->process. The benefit structure provides compensation for the repair or replacement of the
->insured equipment upon failure, with payout amounts based on the condition of the equipment
->at the time of claim. To ensure consistency of estimates and revenue sustainability, coverages
->are capped at 790K per claim, limiting exposure to overly large losses. Premiums for ‘High
->Risk’ equipment were priced higher than those for ‘Low Risk’ equipment to ensure losses
->were accurately accounted for. The characteristics of the covered solar systems were also
->considered, with their risk factors being evaluated based on potential damage to the insured
->equipment. This ultimately led to higher premiums for the Bayesia System, lower premiums
->for the Helionis Cluster, and standard base premiums for Oryn Delta, which had no
->major risk attributes that would warrant a higher premium price.
->
-></details>
-><details>
-><summary>Coverage Triggers and Exclusions</summary>
->  
->The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
->events that occur non-intentionally, which result in unforeseen physical damage that prevents
->the machinery from operating normally. For a claim to be processed, evidence of damage or
->breakdown must be provided to ensure claim validity. Additionally, all insured equipment
->must meet the initially required safety standards. To ensure healthy profits
->and maintainable products, claims arising from the following reasons are not covered by the
->equipment failure policies: gradual wear and tear, intentional misuse, a lack of maintenance,
->not adhering to safety standards and any pre-existing faults known at the time of
->policy inception. Additionally, any equipment older than 30 years will not be eligible for
->insurance.
->
-></details>
-</details>
-
-
-<details>
-<summary>Cargo Loss</summary>
-
-><details>
-><summary>Benefit Structure</summary>
->  
->Cargo Loss insurance provides coverage for loss and damage to the cargo resulting from
->accidental damage, theft and environmental impacts during transportation. The coverage is
->provided on a per shipment basis, with a maximum claim amount of 38 million (Type B)
->and 678 million (Type A). The indemnity is based on the declared value at policy inception,
->with the payout determined according to the extent of the loss during transportation. The
->policy covers the full value of the insured loss, up to the declared value. Cargo risks were
->found to vary across the solar system and will be assessed based on route and operating
->conditions. Premium adjustments were determined by considering specific route risks, transit
->duration, and hazards for operations in select solar systems, namely, Helionis Cluster and
->Oryn Delta. 
->
-></details>
-><details>
-><summary>Coverage Triggers and Exclusions</summary>
->  
->The coverage is triggered from losses and damages occurring due to events such as collisions,
->navigation hazards, and environmental hazards such as asteroids and solar activity.
->Furthermore, coverage extends to third-party interference and operational failures. All events
->must occur within the insured period and be consistent with standard operating conditions. 
->Only Type B Cargo is covered, with Type A Cargo excluded due to its highly concentrated
->risk and potential loss. Additionally, non-accidental losses, delays without physical damage,
->and incidents occurring outside the insured period are not covered. All the routes used for
->transportation must meet established safety standards and achieve minimum clearance
->requirements to be eligible for coverage. 
->
-></details>
-</details>
-
-
-<details>
-<summary>Workers' Compensation</summary>
-
-><details>
-><summary>Benefit Structure</summary>
->  
->The Workers’ Compensation hazard component of the insurance provides coverage and
->financial support for CQMC employees who sustain injuries, illness and work-induced
->conditions. The product provides payments for lost income when an employee is unable to
->work due to injury, and also covers medical, hospital, and rehabilitation costs. Coverage is
->based on a per-event basis with a cap of 170K per claim. Non-white Collar workers will be
->compensated for the physical injuries and illnesses arising from hazardous environments,
->while White Collar workers will be targeted towards psychological claims, including stress-related claims and other workplace factors. Additional considerations apply to employees
->operating within extreme solar system environments, most explicitly the Bayesia system. For
->example, the higher levels of radiation present and subsequent increased exposure will require
->workers to meet a relatively higher exposure threshold to be eligible in making radiation
->related claims. Conversely, those who work in lower pre-defined exposure systems will be
->eligible for potential discounts.
->
-></details>
-><details>
-><summary>Coverage Triggers and Exclusions</summary>
-> 
->Coverage will only be triggered from claims for injury or illness sustained during the course
->of employment with the firm, with potential causes including workplace accidents,
->environmental hazards, operational incidents and work-related stress. The claims will be
->verified through evidence, such as medical examinations, to ensure valid claims are paid out.
->There will be exclusions applied to limit the amount and frequency of the claims. For
->example, intentional injuries, self-inflicted injuries, pre-existing medical conditions and death
->will not be covered as part of this insurance policy
->
-></details>
-</details>
-
-
-<details>
-<summary>Business Interruption</summary>
-
-><details>
-><summary>Benefit Structure</summary>
->  
->Business Interruption insurance claims can be made to compensate for revenue loss and cover
->fixed operational expenses, including salaries, rent and utilities. The maximum payout amount
->per event is 1,426K to limit exposure to extreme claims. Premiums for the three solar systems
->were priced the same, as they all exhibited similar levels of interruption risk.
->
-></details>
-><details>
-><summary>Coverage Triggers and Exclusions</summary>
-> 
->The coverage triggers for business interruption policies involve large operational delays or
->forced shutdowns caused by unforeseen and unintentional external factors such as natural
->disasters, supply failure, burglary, satellite failure, or communication failure. Conditions that
->must be met for a valid claim include upholding proper maintenance requirements and
->providing proof of loss. Exclusions for business interruption claims include failure to
->maintain scheduled maintenance of communication systems, internal conflicts such as worker
->strikes, and structural issues such as bankruptcy, liquidity or financial problems. In the case of
->extreme events, claims for business interruption can only be collected for revenue loss. Any
->specific damages (e.g., to equipment) must be claimed through the other respective Galaxy
->General Insurance products. 
->
-></details>
-</details>
-
 <div style="margin-bottom: 16px;">
 <details>
-<summary>Equipment Failure</summary>
+<summary> > Equipment Failure</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 Equipment Failure insurance provides coverage for losses arising from mechanical
 breakdown, electrical failures, explosions and operational malfunctions during the mining
@@ -265,7 +127,7 @@ major risk attributes that would warrant a higher premium price.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
@@ -286,11 +148,11 @@ insurance.
 
 <div style="margin-bottom: 16px;">
 <details>
-<summary>Cargo Loss</summary>
+<summary> > Cargo Loss</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 Cargo Loss insurance provides coverage for loss and damage to the cargo resulting from
 accidental damage, theft and environmental impacts during transportation. The coverage is
@@ -306,7 +168,7 @@ Oryn Delta.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 The coverage is triggered from losses and damages occurring due to events such as collisions,
 navigation hazards, and environmental hazards such as asteroids and solar activity.
@@ -326,11 +188,11 @@ requirements to be eligible for coverage.
 
 <div style="margin-bottom: 16px;">
 <details>
-<summary>Workers' Compensation</summary>
+<summary> > Workers' Compensation</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 The Workers' Compensation hazard component of the insurance provides coverage and
 financial support for CQMC employees who sustain injuries, illness and work-induced
@@ -348,7 +210,7 @@ eligible for potential discounts.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 Coverage will only be triggered from claims for injury or illness sustained during the course
 of employment with the firm, with potential causes including workplace accidents,
@@ -366,11 +228,11 @@ will not be covered as part of this insurance policy.
 
 <div style="margin-bottom: 16px;">
 <details>
-<summary>Business Interruption</summary>
+<summary> > Business Interruption</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary>Benefit Structure</summary>
+<summary> > Benefit Structure</summary>
 
 Business Interruption insurance claims can be made to compensate for revenue loss and cover
 fixed operational expenses, including salaries, rent and utilities. The maximum payout amount
@@ -380,7 +242,7 @@ were priced the same, as they all exhibited similar levels of interruption risk.
 </details>
 
 <details>
-<summary>Coverage Triggers and Exclusions</summary>
+<summary> > Coverage Triggers and Exclusions</summary>
 
 The coverage triggers for business interruption policies involve large operational delays or
 forced shutdowns caused by unforeseen and unintentional external factors such as natural
