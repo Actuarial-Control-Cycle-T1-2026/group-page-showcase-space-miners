@@ -19,6 +19,18 @@
 - [Data and Data Limitations](#Data-and-Data-Limitations) 
 - [Conclusion](#Conclusion) 
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Product Rationale](#product-rationale)
+- [Product Design](#product-design)
+- [Summary of Pricing and Capital Modelling](#summary-of-pricing-and-capital-modelling)
+- [Stress Testing For Extreme Scenarios](#stress-testing-for-extreme-scenarios)
+- [Risk Assessment](#risk-assessment)
+- [An Evaluation of Ethics and ESG Considerations](#an-evaluation-of-ethics-and-esg-considerations)
+- [Assumptions](#assumptions)
+- [Data and Data Limitations](#data-and-data-limitations)
+- [Conclusion](#conclusion)
+
 ## Executive Summary
 
 This report presents recommendations to Galaxy General’s Management Team in response to
