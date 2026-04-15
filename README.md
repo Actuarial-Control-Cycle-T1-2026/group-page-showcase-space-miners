@@ -387,6 +387,32 @@ cargo_typeB_poi <- glm(
 ```
 </details>
 
+<details>
+  <summary>Click here for Model Distribution Code</summary>
+
+  <pre><code class="language-r"># =========================
+# Equipment Models
+# =========================
+
+equip_best <- glm(
+  claim_amount ~ equipment_age +
+    usage_int +
+    equipment_type +
+    solar_system,
+  family = Gamma(link = "log"),
+  data = sev_equi_clean
+)
+
+best_freq_equip <- glm.nb(
+  claim_count ~ equipment_type +
+    equipment_age +
+    solar_system +
+    maintenance_int +
+    usage_int +
+    offset(log(exposure)),
+  data = freq_equi_clean
+)</code></pre>
+</details>
 
 Finally, a Monte Carlo simulation with 10,000 iterations was conducted to estimate the
 aggregate loss distribution. The number of simulations was chosen with considerations to
