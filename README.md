@@ -7,17 +7,6 @@
   Jeremy Hanna, Kelly Huang, Khushi Kansal, Amanda Xu, William Zhou
 </div>
 
-## Table of Contents
-- [Executive Summary](#Executive-Summary)
-- [Product Rationale](#Product-Rationale)
-- [Product Design](#Product-Design)
-- [Summary of Pricing and Capital Modelling](#Summary-of-Pricing-and-Capital-Modelling) 
-- [Stress Testing For Extreme Scenarios](#Stress-Testing-For-Extreme-Scenarios)
-- [Risk Assessment](#Risk-Assessment)
-- [An Evaluation of Ethics and ESG Considerations](#An-Evaluation-of-Ethics-and-ESG-Considerations)
-- [Assumptions](#Assumptions)
-- [Data and Data Limitations](#Data-and-Data-Limitations) 
-- [Conclusion](#Conclusion) 
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
@@ -291,112 +280,7 @@ Table 1: Model Distributions
 | Workers’ Compensation          | Negative Binomial   | Gamma             |
 | Business Interruption          | Negative Binomial   | Inverse Gaussian  |
 
-<details>
-<summary>[Click here for Model Distribution Code] </summary>
 
-```r
-# =========================
-# Equipment Models
-# =========================
-
-equip_best <- glm(
-  claim_amount ~ equipment_age +
-    usage_int +
-    equipment_type +
-    solar_system,
-  family = Gamma(link = "log"),
-  data = sev_equi_clean
-)
-
-best_freq_equip <- glm.nb(
-  claim_count ~ equipment_type +
-    equipment_age +
-    solar_system +
-    maintenance_int +
-    usage_int +
-    offset(log(exposure)),
-  data = freq_equi_clean
-)
-
-
-# =========================
-# Worker's Compensation Models
-# =========================
-
-workers_best <- glm(
-  claim_amount ~ base_salary +
-    psych_stress_index +
-    hours_per_week +
-    protective_gear_quality +
-    safety_training_index +
-    experience_yrs +
-    accident_history_flag +
-    supervision_level +
-    gravity_level +
-    employment_type +
-    solar_system,
-  family = Gamma(link = "log"),
-  data = work_sev_data
-)
-
-best_freq_workers <- glm.nb(
-  claim_count ~ occupation +
-    safety_training_index +
-    psych_stress_index +
-    accident_history_flag +
-    gravity_level +
-    offset(log(exposure)),
-  data = freq_workers_clean
-)
-
-
-# =========================
-# Business Interruption Models
-# =========================
-
-bus_best <- glm(
-  claim_amount ~ solar_system +
-    exposure,
-  family = inverse.gaussian(link = "log"),
-  data = sev_bus_clean
-)
-
-summary(bus_best)
-
-freq_best_negative <- glm.nb(
-  claim_count ~ offset(log(exposure)) +
-    maintenance_freq +
-    supply_chain_index +
-    energy_backup_score +
-    solar_system,
-  data = freq_bus_clean
-)
-
-
-# =========================
-# Cargo Type B Models
-# =========================
-
-cargo_typeB_best_gamma <- glm(
-  claim_amount ~ cargo_type +
-    weight +
-    route_risk +
-    solar_radiation +
-    debris_density,
-  family = Gamma(link = "log"),
-  data = sev_cargo_typeB_clean
-)
-
-cargo_typeB_poi <- glm(
-  claim_count ~ route_risk +
-    weight +
-    cargo_type +
-    container_type +
-    offset(log(exposure)),
-  family = poisson(link = "log"),
-  data = freq_cargo_typeB_clean
-)
-```
 </details>
 
 <details>
@@ -523,46 +407,46 @@ Table 2: Model Results
 | **VaR 95%**         | 64,890,134        | 221,605,942,519      | 8,396,109,449        | 4,848,489              | 48,685,684,313          |
 | **VaR 99%**         | 75,651,712        | 224,514,388,783      | 8,531,384,245        | 5,246,498              | 49,465,622,831          |
 
-<details>
-<summary>[Click here for Simulation Code]</summary>
 
-```r
-# =========================
+<details>
+  <summary>[Click here for Simulation Code]</summary>
+
+  <pre><code class="language-r"># =========================
 # Equipment Simulation
 # =========================
 
 set.seed(5)
 
-simdata <- freq_equi_clean
+simdata &lt;- freq_equi_clean
 
 # Predicted means
-freq_pred <- predict(best_freq_equip, newdata = simdata, type = "response")
-sev_pred  <- predict(equip_best, newdata = simdata, type = "response")
+freq_pred &lt;- predict(best_freq_equip, newdata = simdata, type = "response")
+sev_pred  &lt;- predict(equip_best, newdata = simdata, type = "response")
 
 # Parameters
-theta <- best_freq_equip$theta
-phi   <- summary(equip_best)$dispersion
-shape <- 1 / phi
+theta &lt;- best_freq_equip$theta
+phi   &lt;- summary(equip_best)$dispersion
+shape &lt;- 1 / phi
 
 # Simulation settings
-n_sim <- 100000
-n <- 4730
+n_sim &lt;- 100000
+n &lt;- 4730
 
 # Store aggregate loss by equipment unit
-agg_matrix <- matrix(0, nrow = n_sim, ncol = n)
+agg_matrix &lt;- matrix(0, nrow = n_sim, ncol = n)
 
 for (s in 1:n_sim) {
   for (i in 1:n) {
 
     # Simulate number of claims
-    N_i <- rnbinom(1, mu = freq_pred[i], size = theta)
+    N_i &lt;- rnbinom(1, mu = freq_pred[i], size = theta)
 
-    if (N_i > 0) {
+    if (N_i &gt; 0) {
       # Simulate claim severities
-      sev_i <- rgamma(N_i, shape = shape, scale = phi * sev_pred[i])
-      agg_matrix[s, i] <- sum(sev_i)
+      sev_i &lt;- rgamma(N_i, shape = shape, scale = phi * sev_pred[i])
+      agg_matrix[s, i] &lt;- sum(sev_i)
     } else {
-      agg_matrix[s, i] <- 0
+      agg_matrix[s, i] &lt;- 0
     }
   }
 }
@@ -574,38 +458,38 @@ for (s in 1:n_sim) {
 
 set.seed(123)
 
-simdata <- freq_workers_clean
+simdata &lt;- freq_workers_clean
 
-freq_pred <- predict(best_freq_workers, newdata = simdata, type = "response")
-sev_pred  <- predict(workers_best, newdata = simdata, type = "response")
+freq_pred &lt;- predict(best_freq_workers, newdata = simdata, type = "response")
+sev_pred  &lt;- predict(workers_best, newdata = simdata, type = "response")
 
 # Parameters
-theta <- best_freq_workers$theta
-phi   <- summary(workers_best)$dispersion
-shape <- 1 / phi
+theta &lt;- best_freq_workers$theta
+phi   &lt;- summary(workers_best)$dispersion
+shape &lt;- 1 / phi
 
 # Settings
-n_sim <- 10000
-n <- 35000
+n_sim &lt;- 10000
+n &lt;- 35000
 
 # Store aggregate loss by worker portfolio
-portfolio_loss <- numeric(n_sim)
+portfolio_loss &lt;- numeric(n_sim)
 
 for (s in 1:n_sim) {
-  total_loss_s <- 0
+  total_loss_s &lt;- 0
 
   for (i in 1:n) {
     # Simulate number of claims
-    N_i <- rnbinom(1, mu = freq_pred[i], size = theta)
+    N_i &lt;- rnbinom(1, mu = freq_pred[i], size = theta)
 
-    if (N_i > 0) {
+    if (N_i &gt; 0) {
       # Simulate severities
-      sev_i <- rgamma(N_i, shape = shape, scale = phi * sev_pred[i])
-      total_loss_s <- total_loss_s + sum(sev_i)
+      sev_i &lt;- rgamma(N_i, shape = shape, scale = phi * sev_pred[i])
+      total_loss_s &lt;- total_loss_s + sum(sev_i)
     }
   }
 
-  portfolio_loss[s] <- total_loss_s
+  portfolio_loss[s] &lt;- total_loss_s
 }
 
 
@@ -615,34 +499,34 @@ for (s in 1:n_sim) {
 
 set.seed(1)
 
-simdata <- freq_bus_clean
+simdata &lt;- freq_bus_clean
 
-freq_pred <- predict(freq_best_negative, newdata = simdata, type = "response")
-sev_pred  <- predict(bus_best, newdata = simdata, type = "response")
+freq_pred &lt;- predict(freq_best_negative, newdata = simdata, type = "response")
+sev_pred  &lt;- predict(bus_best, newdata = simdata, type = "response")
 
 # Parameters
-theta <- freq_best_negative$theta
-phi   <- summary(bus_best)$dispersion
+theta &lt;- freq_best_negative$theta
+phi   &lt;- summary(bus_best)$dispersion
 
 # Simulation settings
-n_sim <- 10000
-n <- nrow(simdata)
+n_sim &lt;- 10000
+n &lt;- nrow(simdata)
 
 # Store aggregate loss by business unit
-agg_matrix <- matrix(0, nrow = n_sim, ncol = n)
+agg_matrix &lt;- matrix(0, nrow = n_sim, ncol = n)
 
 for (s in 1:n_sim) {
   for (i in 1:n) {
 
     # Simulate number of claims
-    N_i <- rnbinom(1, mu = freq_pred[i], size = theta)
+    N_i &lt;- rnbinom(1, mu = freq_pred[i], size = theta)
 
-    if (N_i > 0) {
+    if (N_i &gt; 0) {
       # Simulate claim severities
-      sev_i <- rinvgauss(N_i, mean = sev_pred[i], dispersion = phi)
-      agg_matrix[s, i] <- sum(sev_i)
+      sev_i &lt;- rinvgauss(N_i, mean = sev_pred[i], dispersion = phi)
+      agg_matrix[s, i] &lt;- sum(sev_i)
     } else {
-      agg_matrix[s, i] <- 0
+      agg_matrix[s, i] &lt;- 0
     }
   }
 }
@@ -652,44 +536,43 @@ for (s in 1:n_sim) {
 # Cargo Type B Simulation
 # =========================
 
-simdata_typeB <- freq_cargo_typeB_clean
+simdata_typeB &lt;- freq_cargo_typeB_clean
 
-phi <- summary(cargo_typeB_best)$dispersion
-freq_pred <- predict(cargo_typeB_poi, newdata = simdata_typeB, type = "response")
-sev_pred <- predict(cargo_typeB_best, newdata = simdata_typeB, type = "response")
-sev_pred_1 <- predict(cargo_typeB_best_gamma, newdata = simdata_typeB, type = "response")
+phi &lt;- summary(cargo_typeB_best)$dispersion
+freq_pred &lt;- predict(cargo_typeB_poi, newdata = simdata_typeB, type = "response")
+sev_pred &lt;- predict(cargo_typeB_best, newdata = simdata_typeB, type = "response")
+sev_pred_1 &lt;- predict(cargo_typeB_best_gamma, newdata = simdata_typeB, type = "response")
 
-theta   <- best_freq_cargo_typeB$theta
-phi_1   <- summary(cargo_typeB_best_gamma)$dispersion
-shape_1 <- 1 / phi_1
-scale_1 <- sev_pred_1 * phi_1
+theta   &lt;- best_freq_cargo_typeB$theta
+phi_1   &lt;- summary(cargo_typeB_best_gamma)$dispersion
+shape_1 &lt;- 1 / phi_1
+scale_1 &lt;- sev_pred_1 * phi_1
 
 set.seed(11)
 
-S <- 10000
-aggregate_losses_typeB <- numeric(S)
+S &lt;- 10000
+aggregate_losses_typeB &lt;- numeric(S)
 
 for (s in 1:S) {
 
-  total_loss <- 0
+  total_loss &lt;- 0
 
   for (i in 1:nrow(simdata_typeB)) {
 
     # Step 1: simulate number of claims from Negative Binomial
-    N_i <- rnbinom(1, mu = 1.5 * freq_pred[i], size = theta)
+    N_i &lt;- rnbinom(1, mu = 1.5 * freq_pred[i], size = theta)
 
-    if (N_i > 0) {
+    if (N_i &gt; 0) {
       # Step 2: simulate severities from Gamma
-      claims <- rgamma(N_i, shape = shape_1, scale = 1.5 * scale_1[i])
+      claims &lt;- rgamma(N_i, shape = shape_1, scale = 1.5 * scale_1[i])
 
       # Step 3: aggregate
-      total_loss <- total_loss + sum(claims)
+      total_loss &lt;- total_loss + sum(claims)
     }
   }
 
-  aggregate_losses_typeB[s] <- total_loss
-}
-```
+  aggregate_losses_typeB[s] &lt;- total_loss
+}</code></pre>
 </details>
 
 ### Pricing
