@@ -241,7 +241,6 @@ fierce solar storm (or any other adverse solar event) as a level 1 compliant ope
 ></details>
 </details>
 
-<div style="margin-bottom: 16px;">
 <details>
 <summary> > Equipment Failure</summary>
 <div style="margin-left: 20px;">
@@ -283,7 +282,6 @@ insurance.
 </div>
 </details>
 
-<div style="margin-bottom: 16px;">
 <details>
 <summary> > Cargo Loss</summary>
 <div style="margin-left: 20px;">
@@ -322,7 +320,6 @@ requirements to be eligible for coverage.
 </div>
 </details>
 
-<div style="margin-bottom: 16px;">
 <details>
 <summary> > Workers' Compensation</summary>
 <div style="margin-left: 20px;">
@@ -361,7 +358,6 @@ will not be covered as part of this insurance policy.
 </div>
 </details>
 
-<div style="margin-bottom: 16px;">
 <details>
 <summary> > Business Interruption</summary>
 <div style="margin-left: 20px;">
