@@ -41,7 +41,7 @@ different hazard areas according to their distinct operational and environmental
 characteristics. [Click on the arrows for more information.]
 
 <details>
-<summary> Helionis Cluster</summary>
+<summary> ➡️ Helionis Cluster</summary>
 
 Equipment and Cargo Loss should be the priority coverage areas in this system. Helionis
 Cluster’s two major asteroid clusters present significant risk with their erratic drift patterns,
@@ -52,7 +52,7 @@ Interruptions insurance coverage, supporting its inclusion.
 </details>
 
 <details>
-<summary>Bayesia System</summary>
+<summary>➡️ Bayesia System</summary>
 
 The priority coverages for the Bayesia System should be Workers’ Compensation and
 Equipment Failure. Radiation spikes, combined with the high gravity and thin magnetosphere
@@ -63,7 +63,7 @@ force unplanned operational shutdowns, for indefinite periods of time.
 </details>
 
 <details>
-<summary>Oryn Delta</summary>
+<summary>➡️ Oryn Delta</summary>
 
 Oryn Delta presents the least predictable risk profile of the three systems. The expansion into
 the system’s asymmetric asteroid ring makes Cargo Loss a critical priority as transit risk
