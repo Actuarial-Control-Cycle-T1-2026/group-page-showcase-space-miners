@@ -388,13 +388,13 @@ cargo_typeB_poi <- glm(
 </details>
 
 <details>
-  <summary>Click here for Model Distribution Code</summary>
+  <summary>[Click here for Model Distribution Code]</summary>
 
   <pre><code class="language-r"># =========================
 # Equipment Models
 # =========================
 
-equip_best <- glm(
+equip_best &lt;- glm(
   claim_amount ~ equipment_age +
     usage_int +
     equipment_type +
@@ -403,7 +403,7 @@ equip_best <- glm(
   data = sev_equi_clean
 )
 
-best_freq_equip <- glm.nb(
+best_freq_equip &lt;- glm.nb(
   claim_count ~ equipment_type +
     equipment_age +
     solar_system +
@@ -411,6 +411,85 @@ best_freq_equip <- glm.nb(
     usage_int +
     offset(log(exposure)),
   data = freq_equi_clean
+)
+
+
+# =========================
+# Worker's Compensation Models
+# =========================
+
+workers_best &lt;- glm(
+  claim_amount ~ base_salary +
+    psych_stress_index +
+    hours_per_week +
+    protective_gear_quality +
+    safety_training_index +
+    experience_yrs +
+    accident_history_flag +
+    supervision_level +
+    gravity_level +
+    employment_type +
+    solar_system,
+  family = Gamma(link = "log"),
+  data = work_sev_data
+)
+
+best_freq_workers &lt;- glm.nb(
+  claim_count ~ occupation +
+    safety_training_index +
+    psych_stress_index +
+    accident_history_flag +
+    gravity_level +
+    offset(log(exposure)),
+  data = freq_workers_clean
+)
+
+
+# =========================
+# Business Interruption Models
+# =========================
+
+bus_best &lt;- glm(
+  claim_amount ~ solar_system +
+    exposure,
+  family = inverse.gaussian(link = "log"),
+  data = sev_bus_clean
+)
+
+summary(bus_best)
+
+freq_best_negative &lt;- glm.nb(
+  claim_count ~ offset(log(exposure)) +
+    maintenance_freq +
+    supply_chain_index +
+    energy_backup_score +
+    solar_system,
+  data = freq_bus_clean
+)
+
+
+# =========================
+# Cargo Type B Models
+# =========================
+
+cargo_typeB_best_gamma &lt;- glm(
+  claim_amount ~ cargo_type +
+    weight +
+    route_risk +
+    solar_radiation +
+    debris_density,
+  family = Gamma(link = "log"),
+  data = sev_cargo_typeB_clean
+)
+
+cargo_typeB_poi &lt;- glm(
+  claim_count ~ route_risk +
+    weight +
+    cargo_type +
+    container_type +
+    offset(log(exposure)),
+  family = poisson(link = "log"),
+  data = freq_cargo_typeB_clean
 )</code></pre>
 </details>
 
