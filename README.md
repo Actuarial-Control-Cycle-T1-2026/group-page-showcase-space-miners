@@ -241,12 +241,13 @@ fierce solar storm (or any other adverse solar event) as a level 1 compliant ope
 ></details>
 </details>
 
+<div style="margin-bottom: 16px;">
 <details>
-<summary> > Equipment Failure</summary>
+<summary>Equipment Failure</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary> > Benefit Structure</summary>
+<summary>Benefit Structure</summary>
 
 Equipment Failure insurance provides coverage for losses arising from mechanical
 breakdown, electrical failures, explosions and operational malfunctions during the mining
@@ -264,7 +265,7 @@ major risk attributes that would warrant a higher premium price.
 </details>
 
 <details>
-<summary> > Coverage Triggers and Exclusions</summary>
+<summary>Coverage Triggers and Exclusions</summary>
 
 The coverage triggers of the Equipment Failure insurance are predominantly from unexpected
 events that occur non-intentionally, which result in unforeseen physical damage that prevents
@@ -281,13 +282,15 @@ insurance.
 
 </div>
 </details>
+</div>
 
+<div style="margin-bottom: 16px;">
 <details>
-<summary> > Cargo Loss</summary>
+<summary>Cargo Loss</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary> > Benefit Structure</summary>
+<summary>Benefit Structure</summary>
 
 Cargo Loss insurance provides coverage for loss and damage to the cargo resulting from
 accidental damage, theft and environmental impacts during transportation. The coverage is
@@ -303,7 +306,7 @@ Oryn Delta.
 </details>
 
 <details>
-<summary> > Coverage Triggers and Exclusions</summary>
+<summary>Coverage Triggers and Exclusions</summary>
 
 The coverage is triggered from losses and damages occurring due to events such as collisions,
 navigation hazards, and environmental hazards such as asteroids and solar activity.
@@ -319,13 +322,15 @@ requirements to be eligible for coverage.
 
 </div>
 </details>
+</div>
 
+<div style="margin-bottom: 16px;">
 <details>
-<summary> > Workers' Compensation</summary>
+<summary>Workers' Compensation</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary> > Benefit Structure</summary>
+<summary>Benefit Structure</summary>
 
 The Workers' Compensation hazard component of the insurance provides coverage and
 financial support for CQMC employees who sustain injuries, illness and work-induced
@@ -343,7 +348,7 @@ eligible for potential discounts.
 </details>
 
 <details>
-<summary> > Coverage Triggers and Exclusions</summary>
+<summary>Coverage Triggers and Exclusions</summary>
 
 Coverage will only be triggered from claims for injury or illness sustained during the course
 of employment with the firm, with potential causes including workplace accidents,
@@ -357,13 +362,15 @@ will not be covered as part of this insurance policy.
 
 </div>
 </details>
+</div>
 
+<div style="margin-bottom: 16px;">
 <details>
-<summary> > Business Interruption</summary>
+<summary>Business Interruption</summary>
 <div style="margin-left: 20px;">
 
 <details>
-<summary> > Benefit Structure</summary>
+<summary>Benefit Structure</summary>
 
 Business Interruption insurance claims can be made to compensate for revenue loss and cover
 fixed operational expenses, including salaries, rent and utilities. The maximum payout amount
@@ -373,7 +380,7 @@ were priced the same, as they all exhibited similar levels of interruption risk.
 </details>
 
 <details>
-<summary> > Coverage Triggers and Exclusions</summary>
+<summary>Coverage Triggers and Exclusions</summary>
 
 The coverage triggers for business interruption policies involve large operational delays or
 forced shutdowns caused by unforeseen and unintentional external factors such as natural
@@ -390,7 +397,7 @@ General Insurance products.
 
 </div>
 </details>
-
+</div>
 
 
 ## Summary of Pricing and Capital Modelling 
