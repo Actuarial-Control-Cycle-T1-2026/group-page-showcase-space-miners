@@ -52,6 +52,7 @@ position relay satellites perpetuates such risk, which can be mitigated through 
 Interruptions insurance coverage, supporting its inclusion.</p>
 </div>
 </details>
+</div>
 
 <div style="margin-bottom: 16px;">
 <details>
@@ -64,6 +65,7 @@ equipment. Business Interruption is also material, as radiation events have the 
 force unplanned operational shutdowns, for indefinite periods of time.</p>
 </div>
 </details>
+</div>
 
 <div style="margin-bottom: 16px;">
 <details>
@@ -77,6 +79,7 @@ Interruption coverage. Workers' Compensation is also elevated given the risky na
 expansion, while Equipment Failure risk is present but relatively more manageable.</p>
 </div>
 </details>
+</div>
 
 
 ## Product Design
